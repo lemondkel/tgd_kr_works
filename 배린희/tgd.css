@@ -1,0 +1,154 @@
+@keyframes jello {
+	from,
+	11.1%,
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	22.2% {
+		-webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+		transform: skewX(-12.5deg) skewY(-12.5deg);
+	}
+
+	33.3% {
+		-webkit-transform: skewX(6.25deg) skewY(6.25deg);
+		transform: skewX(6.25deg) skewY(6.25deg);
+	}
+
+	44.4% {
+		-webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+		transform: skewX(-3.125deg) skewY(-3.125deg);
+	}
+
+	55.5% {
+		-webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+		transform: skewX(1.5625deg) skewY(1.5625deg);
+	}
+
+	66.6% {
+		-webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+		transform: skewX(-0.78125deg) skewY(-0.78125deg);
+	}
+
+	77.7% {
+		-webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+		transform: skewX(0.390625deg) skewY(0.390625deg);
+	}
+
+	88.8% {
+		-webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+		transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+	}
+}
+
+@font-face { font-family: 'BBTreeGR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html, body {
+	font-family: 'BBTreeGR' !important;
+	cursor: url(http://cur.cursors-4u.net/others/oth-9/oth800.cur), auto !important;
+}
+
+html, body {
+	background: #fce5ff !important;
+}
+
+#main .menu-wrapper>.header {
+	background: #dc57a7 !important;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #dc57a7 !important;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #dc57a7 !important;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #dc57a7 !important;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #dc57a7 !important;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #dc57a7 !important;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #dc57a7 !important;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #dc57a7;
+	border-color: #dc57a7;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #dc57a7;
+}
+
+#board-info #board-info-profile-img {
+	float: left !important;
+	width: 7em !important;
+	height: 7em !important;
+	border-radius: 50% !important;
+	margin-right: 10px !important;
+}
+
+div#board-info {
+	height: 9em !important;
+}
+
+#board-info h1 {
+	margin-top: 1em !important;
+}
+
+#article-content-wrapper>.header {
+	border-top: 2px solid #dc57a7 !important;
+}
+
+div#article-list {
+	background-size: 30% auto !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-position: 400px center !important;
+}
+
+span#viewers:after {
+	content: "명 배하!" !important;
+}
+
+div#article-list-category {
+	background: #dc57a7 !important;
+}
+
+#article-list-category > a {
+	background: #dc57a7 !important;
+	color: white !important;
+	border-right: 1px solid !important;
+}
+
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(https://upload.tgd.kr/20190607/4b24b7372f5c8e3623535e2174ede096.png) no-repeat;
+	background-size: 150px auto;
+	display: block;
+	width: 150px;
+	height: 50px;
+	top: 0;
+	animation : 2s infinite jello;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
+
+.article-list-row:hover {
+	transition: 0.2s;
+	transform: scale(1.1);
+}
