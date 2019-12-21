@@ -1,0 +1,299 @@
+/* 폰트 */
+@font-face { font-family: 'WONDotum'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/WONDotum.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face {
+	font-family: 'LotteMartHappy';
+	font-style: normal;
+	font-weight: 400;
+	src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'LotteMartHappy';
+	font-style: normal;
+	font-weight: 700;
+	src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+}
+
+*{font-family:'LotteMartHappy';}
+
+header.nav-down {
+	height: 62px;
+	border-bottom: 4px solid black;
+}
+
+div#header-top-notice {
+	margin-top: 12px;
+}
+
+header #header-area a[href="/"] h1 {
+	position: relative;
+	background: url(//upload.tgd.kr/20190504/9c5e82adf1fc705d8f7bed9aa3bfaaaa.png) no-repeat;
+	background-size: 180px auto;
+	display: inline-block;
+	width: 180px;
+	height: 45px;
+	animation: 2s heartBeat infinite;
+}
+
+header>#header-area>a>h1 {
+	display: none;
+}
+
+@keyframes flip {
+	from {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, -360deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -190deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -190deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+
+	50% {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -170deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -170deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	80% {
+		-webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, 0deg);
+		transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, 0deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	to {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, 0deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+}
+
+header {
+	height: 62px !important;
+	border-bottom: none !important;
+	background: white !important;
+}
+
+#movetotop {
+	background: url("//upload.tgd.kr/20190501/b7665ced8e51b2a473106bbddedbd777.png") -2px 0px / 85px !important;
+	width: 85px !important;
+	height: 85px !important;
+	opacity: 1;
+	margin-left: -15px !important;
+}
+
+#movetotop img {
+	content: "";
+	display: none;
+}
+
+#movetotop:hover {
+	transform: scale(1.2);
+	transition: 0.2s;
+}
+
+header>#header-area>#header-search-link {
+	color: black !important;
+}
+
+nav#nav>.nav-header {
+	background: black !important;
+}
+
+#header-top-notice strong.notice-badge {
+	background: black !important;
+}
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: black !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+	color: #f18181 !important;
+}
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+	color: black !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: black !important;
+	border-color: black !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: black !important;
+}
+
+.pagination>li.active>a {
+	color: white !important;
+}
+
+#article-list #article-list-menu>.btn.write, #writeCommentBtn, #loadNewCommentsBtn {
+	background: #c56d6d;
+	border: none !important;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+	color: black;
+}
+
+header.nav-up {
+	top : -70px !important;
+}
+nav#nav {
+	transition: all 0.4s cubic-bezier(0.77, -0.04, 1, 1.01);
+	background: #fff
+}
+
+nav.hide {
+	left: -300px !important;
+	display: block !important;
+}
+
+img[align=absmiddle] {
+	background: url(//upload.tgd.kr/20190501/3b0e5f07aaa7698c8fc9c85484260511.png) 0 0/18px;
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+}
+
+img[alt=Broadcaster] {
+	background: url(//upload.tgd.kr/20190501/67f0b9dd19014e9639fbc8d73f496d79.png) 0 0/18px;
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+}
+
+span.a-badge i.fa.fa-star {
+	opacity: .75 !important;
+	color: transparent !important;
+	vertical-align: 2px!important;
+	width: 18px !important;
+	height: 16px !important;
+	background: url(//upload.tgd.kr/20190501/2b5e972dffe23253f624535a8e5100d7.png) center 0/100% no-repeat !important;
+	animation: infinite rot360 0.2s;
+}
+
+@keyframes rot360 {
+	from {
+		transform: rotate(360deg);
+	}
+
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+span#viewers:after {
+	content: "명!";
+}
+
+span#viewers-area i.fa.fa-user {
+	background: url(//upload.tgd.kr/20190501/34e5647d3da0f4dc3bb78ed03a090653.png) 0 0/18px;
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+	font-size: 0;
+	vertical-align: top;
+}
+
+#article-list {
+	background: white;
+	background-repeat: no-repeat;
+	background-position: 490px 65px;
+	background-size: 190px;
+}
+
+#article-list>.article-list-row {
+	background: none;
+}
+
+header>#header-area>#header-bar-link {
+	color: black !important;
+}
+
+#article-list #article-list-category {
+	background: white !important;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+#article-list #article-list-category>a {
+	background: white !important;
+	border-bottom: 3px solid !important;
+}
+footer {
+	background: white !important;
+	color: black !important;
+}
+
+footer a {
+	color: black !important;
+}
+
+#article-list-menu i.fa.fa-star,
+#article-list i.fa.fa-star {
+	opacity: .75 !important;
+	color: transparent !important;
+	vertical-align: 2px!important;
+	width: 18px !important;
+	height: 16px !important;
+	background: url(//upload.tgd.kr/20190501/2b5e972dffe23253f624535a8e5100d7.png) center 0/100% no-repeat !important;
+	animation: infinite rot360 0.2s;
+}
+
+@keyframes heartBeat {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	14% {
+		-webkit-transform: scale(1.3);
+		transform: scale(1.3);
+	}
+
+	28% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	42% {
+		-webkit-transform: scale(1.3);
+		transform: scale(1.3);
+	}
+
+	70% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+.input-group-btn button.btn.square.btn-default.dropdown-toggle, #boardSearchForm .form-control, .input-group-btn button.btn.square.btn-default {
+	border: 1px solid black;
+}
+
+nav#nav > #nav-upper #userDropdown img.profile-img {
+	width: 44px;
+	height: 44px;
+	float: right;
+	right: -12px;
+	top: -10px;
+	position: relative;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+}
