@@ -1,0 +1,96 @@
+@font-face { font-family: 'S-CoreDream-8Heavy'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {
+	cursor: url(http://ani.cursors-4u.net/symbols/sym-8/sym752.cur) 4 5, auto !important;
+}
+
+html, body {
+	font-family: 'S-CoreDream-8Heavy' !important;
+}
+
+html, body {
+	background: #f7dcf1;
+}
+
+#main .menu-wrapper>.header {
+	background: #e29adf;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #e29adf;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #e29adf;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #e29adf;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #e29adf;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #e29adf;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #e29adf;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #e29adf;
+	border-color: #e29adf;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #e29adf;
+}
+
+#board-info #board-info-profile-img {
+	float: left !important;
+	width: 7em;
+	height: 7em;
+}
+
+div#board-info {
+	height: 9em;
+}
+
+#board-info h1 {
+	margin-top: 1em;
+}
+
+#article-content-wrapper>.header {
+	border-top: 2px solid #6441a5;
+}
+
+div#article-list {
+	background: url(//upload.tgd.kr/20190516/1df1534f0b58a0332234cddd03936b5e.png);
+	background-size: 30% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-position: 400px center;
+}
+
+span#viewers:after {
+	content: "명의 노예들이 갇혀 있어요 T.T";
+}
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(https://upload.tgd.kr/20190517/932555497f2cf97fd0d4dff69fb51d25.png) no-repeat;
+	background-size: 139px auto;
+	display: block;
+	width: 139px;
+	height: 50px;
+	left: 0;
+	top: 0;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
