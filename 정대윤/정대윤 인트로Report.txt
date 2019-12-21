@@ -1,0 +1,73 @@
+Report created: 
+	2019-08-25	오후 6:52:10
+
+Project name: 정대윤 인트로.aep
+
+Source files collected to: 
+	D:\2019년 8월 작업파일\정대윤 인트로 folder
+
+Source files collected: All
+
+Collected comps:  
+	정대윤 인트로
+	정대윤 인트로 2
+	원\
+	정대윤
+	타이틀
+	Displace map Comp 1
+	원
+	
+Number of collected files:  66
+
+Size of collected files:  6.4 MB
+
+Collected source files: 
+	D:\영상편집\영상소스\음향\Motion Bro Sound Fx\Daruma Audio\-- Assets\Sound\DA - Whoosh Big - 4.mp3
+	D:\영상편집\영상소스\음향\Motion Bro Sound Fx\KeepForest\-- Assets\Sound\KF - Downer - 1.mp3
+	D:\영상편집\영상소스\음향\Motion Bro Sound Fx\KeepForest\-- Assets\Sound\KF - UI Glitch - 4.mp3
+	D:\영상편집\영상소스\음향\Motion Bro Sound Fx\S-Cheremisinov\-- Assets\Sound\SCH - Glitch - 3.mp3
+	D:\영상편집\영상소스\음향\Motion Bro Sound Fx\Videolancer Glitch\-- Assets\Sound\VGT - Digital TV - 8.mp3
+	Sequence "Bad tracking_[0-60].jpg" at D:\영상편집\영상소스\특수효과\VHS Tape Assets\BadTracking with 61 files and 0 auxiliary files
+	
+Rendering plug-ins:
+	Classic 3D
+	
+Effects used:  16
+
+Effect:  CC RepeTile
+	
+Effect:  CC Toner
+	
+Effect:  Colorama
+	
+Effect:  Displacement Map
+	
+Effect:  Drop Shadow
+	
+Effect:  Fast Box Blur
+	
+Effect:  Fractal Noise
+	
+Effect:  Glow
+	
+Effect:  Hue/Saturation
+	
+Effect:  Mosaic
+	
+Effect:  Set Channels
+	
+Effect:  Set Matte
+	
+Effect:  Solid Composite
+	
+Effect:  uni.Chromatic Aberration
+	
+Effect:  uni.Glitch
+	
+Effect:  uni.VHS
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: “Sandoll GyeokdongGothic”, Font style: “Regular”
+
