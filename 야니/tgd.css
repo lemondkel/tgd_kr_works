@@ -1,0 +1,98 @@
+@font-face { font-family: 'Arita-dotum-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html, body {
+	font-family: 'Arita-dotum-Medium' !important;
+}
+
+html, body {
+	background: #f7dcf2 !important;
+}
+
+#main .menu-wrapper>.header {
+	background: #ff93ec !important;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #ff93ec !important;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #ff93ec !important;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #ff93ec !important;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #ff93ec !important;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #ff93ec !important;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #ff93ec !important;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #ff93ec;
+	border-color: #ff93ec;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #ff93ec;
+}
+
+#board-info #board-info-profile-img {
+	float: left !important;
+	width: 7em !important;
+	height: 7em !important;
+	border-radius: 50% !important;
+	margin-right: 10px !important;
+}
+
+div#board-info {
+	height: 9em !important;
+}
+
+#board-info h1 {
+	margin-top: 1em !important;
+}
+
+#article-content-wrapper>.header {
+	border-top: 2px solid #ff93ec !important;
+}
+
+div#article-list {
+	background-size: 30% auto !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-position: 400px center !important;
+}
+
+span#viewers:after {
+	content: "명 노예 대기중" !important;
+}
+
+div#article-list-category {
+	background: #ffe0fa !important;
+}
+
+#article-list-category > a {
+	background: #ffe0fa !important;
+	/* color: white !important; */
+	border-right: 1px solid !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+	color: #999 !important;
+}
+
+header {
+	background: url(https://cdn.discordapp.com/attachments/419808248917655558/591884797320888343/a0cad9fe11ce23cb.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 110px;
+}
