@@ -1,0 +1,136 @@
+@font-face { font-family: 'BBTreeGR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@keyframes pulse {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		-webkit-transform: scale3d(1.05, 1.05, 1.05);
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+* {
+	cursor: url(http://cur.cursors-4u.net/anime/ani-1/ani195.ani), url(http://cur.cursors-4u.net/anime/ani-1/ani195.png), auto !important;
+	font-family: 'BBTreeGR';
+}
+
+html,body {
+	background: #dae2ff;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #5e80fb;
+	border-bottom: 2px solid #bccaff;
+	border-right: 2px solid #bccaff;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#main .menu-wrapper>.header {
+	background: #5e80fb;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #5e80fb;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+	color: #5e80fb;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+	color: #5e80fb;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #5e80fb;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #5e80fb;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #5e80fb;
+}
+
+#main .menu-wrapper>a>em {
+	color: #bccaff;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+	color: #bccaff;
+}
+
+#main .menu-wrapper {border-bottom: none;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
+
+#main .menu-wrapper>a:last-child {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#main #main-content {
+}
+
+#main #main-content>div.frame {
+	border: 2px solid #5e80fb;
+}
+
+#article-list>.article-list-row:nth-of-type(2) {
+	border-top: 2px solid #5e80fb;
+}
+
+#board-info #board-info-profile-img {
+	float: left!important;
+	width: 6em;
+	border-radius: 20px;
+	border: 2px solid #bccaff;
+}
+
+#board-info h1>a {
+	margin-left: 10px;
+}
+
+#board-info #board-info-bottom #addFavoriteBtn {
+	margin-left: 10px;
+}
+
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(https://upload.tgd.kr/20190622/8262b7b78a29b15d831ca1f826dacee4.png) no-repeat;
+	background-size: 200px auto;
+	display: block;
+	width: 200px;
+	height: 50px;
+	left: 0;
+	top: 0;
+	animation: pulse 1s infinite;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
+
+#board-info {
+	height: 8em;
+}
+
+#board-info h1 {
+	margin-top: 15px;
+}
+
+span#viewers:after {
+	content: "명 접속중!" !important;
+}
