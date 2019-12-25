@@ -1,0 +1,150 @@
+@font-face { font-family: 'UhBeeBEOJJI'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeBEOJJI.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+*{
+	font-family: 'UhBeeBEOJJI';
+	font-weight: 700;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #ffcaf9;
+}
+
+#main .menu-wrapper>.header {
+	background: #ffcaf9;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #ffcaf9;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #ffcaf9;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #ffcaf9;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #ffcaf9;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #ffcaf9;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+	color: #ffcaf9;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+	color: black;
+}
+
+#board-info #board-info-profile-img {
+	width: 7em;
+	right: 7em;
+	float: left!important;
+}
+
+#board-info {
+	height: 9em;
+}
+
+#board-info h1 {
+	margin-top: 1em;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #ffcaf9;
+	border-color: #ffcaf9;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: black;
+}
+
+html, body {
+	background: #ffedfb;
+}
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20191225/ee87b6c85a0d74638d71a28dd8fc04e0.png) no-repeat;
+	background-size: 200px auto;
+	display: block;
+	width: 200px;
+	height: 50px;
+	left: 0;
+	top: 0;
+	animation: 2s flip infinite;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
+
+#article-content-wrapper>.header {
+	border-top: 2px solid #ffcaf9;
+}
+
+#article-reply-area > .header h5 {color: #ffcaf9;}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+	color: black;
+}
+
+.reply-writer.logged {}
+
+#article-list>.article-list-row {
+	transition: 0.5s;
+}
+
+#article-list>.article-list-row:hover {
+	transform: scale(1.025);
+	box-shadow: #ff56ff 0px 0px 12px 0px;
+	transition: all 0.35s;
+}
+
+#main .menu-wrapper > a {
+	transition: 0.5s;
+}
+
+#main .menu-wrapper > a:hover {
+	transform: scale(1.025);
+	box-shadow: #fba2fb 0px 0px 12px 0px;
+	transition: all 0.35s;
+}
+
+#board-info #board-info-profile-img {
+	transition: 0.5s;
+	border-radius: 0;
+	border: 0px solid #999;
+	animation: Bounce 0.75s infinite linear;
+	position: relative;
+	left: 0;
+}
+
+#board-info #board-info-profile-img:hover {
+	/* transform: translateX(100px); */
+}
+
+
+@keyframes Bounce {
+	0% {
+		top: -10px
+	}
+	25% {
+		top: -15px
+	}
+	50% {
+		top: -10px
+	}
+	75% {
+		top: -5px
+	}
+	100% {
+		top: -10px
+	}
+}
