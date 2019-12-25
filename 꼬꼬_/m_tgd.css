@@ -1,0 +1,295 @@
+header #header-area a[href="/"] h1 {
+	position: relative;
+	background: url(//upload.tgd.kr/20191223/0d951288b205b1f7e24c303772058c92.png) no-repeat;
+	background-size: 126px auto;
+	display: inline-block;
+	width: 126px;
+	height: 45px;
+	animation: 2s heartBeat infinite;
+}
+
+header>#header-area>a>h1 {
+	display: none;
+}
+
+header {
+	height: 60px;
+	border-bottom: 4px solid #ffc418;
+	background: #ffc41814;
+}
+
+#header-top-notice {
+	margin-top: 11px;
+}
+
+#header-top-notice strong.notice-badge {
+	background: #ffc418;
+	border-radius: 20px;
+}
+
+header>#header-area>#header-search-link {
+	color: #ffc418;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+	color: #ffc418;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+	color: #ffc418;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #ffc418;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #ffc418;
+	border-color: #ffc418;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: black;
+}
+
+header>#header-area>#header-bar-link {
+	color: #ffc418;
+	margin-top: 3px;
+}
+
+img[alt=Broadcaster] {
+	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/61b16cad-b50a-4cf1-bcfe-7f5a0a912e0c-profile_image-300x300.png) 0 0/18px;
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+}
+
+#article-list-menu>.btn.write {
+	background-color: #ffc418;
+	border-color: #ffc418;
+	border-radius: 20px;
+}
+
+#article-list-menu>.btn.cog {
+	border-radius: 20px;
+}
+
+#article-list-menu>.btn.best {
+	border-radius: 20px;
+}
+
+#movetotop {
+	background: url("//upload.tgd.kr/20191222/fe10989043226a111905f703a4061270.png") -2px 0px / 85px !important;
+	width: 85px !important;
+	height: 85px !important;
+	opacity: 1;
+	margin-left: -15px !important;
+	transition: 0.2s;
+}
+
+#movetotop img {
+	content: "";
+	display: none;
+}
+
+#movetotop:hover {
+	transform: scale(1.2);
+}
+
+#article-reply-area > .header h5 {
+	color: #ffc418;
+}
+
+header {
+	background: #fff6db;
+}
+
+button#writeCommentBtn {
+	background-color: #ffc418;
+	border-color: #ffc418;
+	border-radius: 20px;
+}
+
+.btn-outline-success {
+	background-color: #ffc6c6;
+	color: white;
+	border-color: white;
+	transition: 0.5s;
+}
+
+.btn-outline-success:hover {
+	background-color: #ff9999;
+	border-color: #ff9999;
+}
+
+button.btn.btn-outline-primary.vote-btn {
+	color: white;
+	border-color: white;
+	background: #b1b1b1;
+}
+
+#article-content-wrapper>.header {
+	background: none;
+}
+
+a#lastc {
+	color: #ffc418;
+}
+
+#article-list #article-list-category {
+	background: white;
+}
+
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+	background: white;
+}
+
+#article-list #article-list-category>a {
+	background: white;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+	background: #ffc418;
+}
+footer {
+	background: white;
+}
+
+footer .container a {
+	color: #949494;
+	font-weight: 700;
+}
+
+nav#nav>.nav-header {
+	background: #ffc418;
+}
+
+nav#nav {
+	transition: 0.5s;
+}
+
+nav#nav>#nav-upper>#header-close-bar-link {
+	color: #ffc418;
+	margin-top: 3px;
+}
+
+nav#nav > .nav-menu-area hr {
+	border-bottom: 1px solid #ffc418;
+}
+
+button.btn.square.btn-default.dropdown-toggle {
+	border: 2px solid #ffc418;
+	border-radius: 20px;
+	text-align: center;
+	margin-right: 40px;
+	line-height: 16px;
+	transition: 0.2s;
+}
+
+#article-list #boardSearchForm .form-control {
+	line-height: 16px;
+	vertical-align: top;
+	border: 2px solid #ffc418;
+	border-radius: 20px;
+	transition: 0.2s;
+}
+
+.input-group-btn {
+	position: relative;
+	/* border: 2px solid #ffc418; */
+	left: 20px;
+}
+
+button.btn.square.btn-default {
+	border: 2px solid #ffc418;
+	border-radius: 20px;
+	color: #ffc418;
+	transition: 0.2s;
+}
+
+#article-list #boardSearchForm .form-control:hover, #article-list #boardSearchForm .form-control:focus {
+	transform: scale(1.1);
+}
+
+button.btn.square.btn-default.dropdown-toggle:focus, button.btn.square.btn-default.dropdown-toggle:hover {
+	background: white;
+	transform: scale(1.1);
+	outline: none;
+}
+
+button.btn.square.btn-default:hover, button.btn.square.btn-default:focus {
+	background: white;
+	transform: scale(1.1);
+	outline: none;
+}
+
+#boardSearchForm {
+	left: -20px;
+	position: relative;
+}
+
+#article-list #boardSearchForm .form-control {
+	width: 200px;
+}
+
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+	color: black;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+	background: #fff9e6;
+	border: none;
+}
+
+#article-reply-area #reply-real-area .reply.d-1, #article-reply-area #reply-best-area .reply.d-1 {
+	border: none;
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+	border: none;
+}
+
+a.rereply-btn {
+	color: #ffc418;
+}
+
+.reply-menu a {
+	color: #949494;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > small.code, #article-reply-area #reply-best-area .reply>.reply-header>small.code {
+	color: #ffc418;
+}
+
+#board-info #board-info-bottom a {font-weight: 500;}
+
+#board-info #board-info-bottom #addFavoriteBtn i {
+	color: #ffc418;
+}
+
+header > #header-search-bar #header-search-input {
+	border: 2px solid #ffc418;
+	border-radius: 20px;
+}
+
+header > #header-search-bar #header-search-btn {
+	color: #ffc418;
+}
+
+header > #header-search-bar #header-close-search-btn {
+	color: #ffc418;
+	margin-top: 3px;
+}
+
+#article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-thumbnail, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+	border: none;
+}
+
+#article-list>.article-list-row.notice {
+	background-color: #fffbec;
+}
+
+#article-list-category > a:first-child > i {
+	color: #ffc418;
+}
