@@ -1,0 +1,137 @@
+#main .menu-wrapper>.header {background: #ea779c;border-top-left-radius: 20px;border-top-right-radius: 20px;}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #ea779c;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #ea779c;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #ea779c;
+}
+
+header #right-search-form>#right-search-btn {color: #ea779c;}
+
+#article-list #article-list-category {
+	border-top: 2px solid #ea779c;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {color: #ea779c;}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #ea779c;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+	color: #ea779c;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #ea779c;
+	border-color: #ea779c;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #ea779c;
+}
+
+#board-info #board-info-profile-img {
+	width: 7em;
+	height: 7em;
+	float: left!important;
+}
+
+#board-info {
+	height: 9em;
+}
+
+#board-info h1 {
+	margin-top: 1em;
+}
+
+html, body {background: #ffe1e1;height: auto !important;background-image: url(https://i.ibb.co/K9QxXSt/heart1.png), url(https://i.ibb.co/K9QxXSt/heart2.png), url(https://i.ibb.co/hZ4xk3s/heart3.png) !important;-webkit-animation: snow 10s linear infinite !important;-moz-animation: snow 10s linear infinite !important;-ms-animation: snow 10s linear infinite !important;animation: snow 10s linear infinite !important;}
+
+@keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20191225/c1a3e0f6809d39181bf214fa76862115.png) no-repeat;
+	background-size: 250px auto;
+	display: block;
+	width: 250px;
+	height: 50px;
+	left: 0;
+	top: 25px;
+	animation: 2s flip infinite;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
+
+@keyframes flip {
+	from {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, -360deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -190deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -190deg);
+		-webkit-animation-timing-function: ease-out;
+		animation-timing-function: ease-out;
+	}
+
+	50% {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -170deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+		rotate3d(0, 1, 0, -170deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	80% {
+		-webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, 0deg);
+		transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, 0deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	to {
+		-webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+		rotate3d(0, 1, 0, 0deg);
+		transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+}
+
+header #header-bar {margin-top: 50px;}
