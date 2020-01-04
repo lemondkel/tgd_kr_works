@@ -109,10 +109,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 	color: red;
 }
 
-html, body {
-	background: #ffe8e8;
-}
-
 #main .menu-wrapper > a > em {
 	color: #ff9e9e;
 }
@@ -231,49 +227,55 @@ header .row > div:nth-child(1) > a img {
 
 body {
 	height: auto !important;
-	background: #ffb0b0 !important;
-	background-image: url(https://i.ibb.co/K9QxXSt/heart1.png), url(https://i.ibb.co/K9QxXSt/heart2.png), url(https://i.ibb.co/hZ4xk3s/heart3.png) !important;
+	background: #ad3030 !important;
+	background-image: url(https://media.discordapp.net/attachments/660291091211354134/662271834687012874/2020.01.02_2.png?width=480&height=480), url(https://media.discordapp.net/attachments/660291091211354134/662271838600167424/2020.01.02.png?width=480&height=480), url(https://media.discordapp.net/attachments/660291091211354134/662271840559038464/2020.01.02_1.png?width=480&height=480) !important;
 	-webkit-animation: snow 10s linear infinite !important;
 	-moz-animation: snow 10s linear infinite !important;
 	-ms-animation: snow 10s linear infinite !important;
-	animation: snow 10s linear infinite !important;
+	animation: snow 100s linear infinite !important;
 }
 
 @keyframes snow {
 	0% {
-		background-position: 0px 0px, 0px 0px, 0px 0px;
+		background-position: 50px 650px, 600px 480px, 300px 200px;
+		background-size: 200px, 150px, 250px;
 	}
 	100% {
-		background-position: 500px 1000px, 400px 400px, 300px 300px;
+		background-position: 6050px 6650px, 9680px 9400px, 4300px 4200px;
+		background-size: 200px, 150px, 250px;
 	}
 }
 
 @-moz-keyframes snow {
 	0% {
-		background-position: 0px 0px, 0px 0px, 0px 0px;
+		background-position: 50px 650px, 600px 480px, 300px 200px;
+		background-size: 200px, 150px, 250px;
 	}
 	100% {
-		background-position: 500px 1000px, 400px 400px, 300px 300px;
+		background-position: 6050px 6650px, 9680px 9400px, 4300px 4200px;
+		background-size: 200px, 150px, 250px;
 	}
 }
 
 @-webkit-keyframes snow {
 	0% {
-		background-position: 0px 0px, 0px 0px, 0px 0px;
-	}
-	50% {
+		background-position: 50px 650px, 600px 480px, 300px 200px;
+		background-size: 200px, 150px, 250px;
 	}
 	100% {
-		background-position: 500px 1000px, 400px 400px, 300px 300px;
+		background-position: 6050px 6650px, 9680px 9400px, 4300px 4200px;
+		background-size: 200px, 150px, 250px;
 	}
 }
 
 @-ms-keyframes snow {
 	0% {
-		background-position: 0px 0px, 0px 0px, 0px 0px;
+		background-position: 50px 650px, 600px 480px, 300px 200px;
+		background-size: 200px, 150px, 250px;
 	}
 	100% {
-		background-position: 500px 1000px, 400px 400px, 300px 300px;
+		background-position: 6050px 6650px, 9680px 9400px, 4300px 4200px;
+		background-size: 200px, 150px, 250px;
 	}
 }
 
