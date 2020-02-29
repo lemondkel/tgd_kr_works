@@ -1,0 +1,16 @@
+header>#header-area>a>h1 {
+	background: url(//upload.tgd.kr/20200205/8bd7cf927643906b30ae3f3f61228922.png) no-repeat;
+	height: 50px;
+	width: 150px;
+}
+
+header {
+	height: 60px;
+	background: #ebdeff;
+}
+
+@font-face { font-family: 'HangeulNuri-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html, body {
+	font-family: 'HangeulNuri-Bold';
+}

@@ -1,0 +1,136 @@
+#board-info #board-info-profile-img {
+	width: 7em;
+	height: 7em;
+	float: left!important;
+	border-radius: 100%;
+	cursor: pointer;
+	transition: 5s;
+}
+
+#board-info {
+	height: 9em;
+}
+
+#board-info h1 {
+	margin-top: 1em;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+}
+
+html, body {
+	background: #ebdeff;
+}
+
+#main .menu-wrapper>.header {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#main #main-content>div.frame {
+	border: 5px solid;
+	border-radius: 20px;
+	border-color: #6441a5;
+}
+
+header #header-bar {
+	width: 1150px;
+}
+
+header #header-bar>.row {
+	border-radius: 20px;
+}
+
+header #right-search-form>input[type=text] {
+	border-radius: 20px;
+}
+
+#article-list #article-list-menu>.btn.write {
+	background: #6441a5;
+	border-radius: 20px;
+	transition: 0.2s;
+}
+
+#main .menu-wrapper {
+}
+
+#article-list #article-list-menu>.btn.write:hover {
+	transform: scale(1.1);
+}
+
+#article-list>.article-list-row>.item {
+	transition: 0.2s;
+}
+
+#article-list>.article-list-row>.item:hover {
+	transform: translateX(10px);
+}
+
+#board-info #board-info-profile-img:hover {
+	transform: scale(1.5) rotate(360deg);
+}
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20200205/8bd7cf927643906b30ae3f3f61228922.png) no-repeat;
+	background-size: 150px auto;
+	display: block;
+	width: 150px;
+	height: 50px;
+	left: 0;
+	top: 0;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
+
+header #header-bar {
+	margin-top: 5px;
+}
+
+@font-face { font-family: 'HangeulNuri-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html, body {
+	font-family: 'HangeulNuri-Bold';
+}
+
+img[alt=Broadcaster] {
+	background: url(https://static-cdn.jtvnw.net/jtv_user_pictures/04b98de9-a01b-44b5-ac79-1ff2deaa2e7c-profile_image-300x300.jpeg) 0 0/18px;
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+}
+
+#article-list #article-list-menu>.btn.del {
+	border-radius: 20px;
+}
+
+#article-list #article-list-menu>.btn.cog {
+	border-radius: 20px;
+}
+
+#article-list #article-list-menu>.btn.best {
+	border-radius: 20px;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+	color: black;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	border-radius: 20px;
+}
+
+.pagination>li>a, .pagination>li>span {
+	border-radius: 20px;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+	border-radius: 20px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+	border-radius: 20px;
+}
