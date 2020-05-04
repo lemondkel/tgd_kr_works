@@ -1,9 +1,9 @@
 header #header-area a[href="/"] h1 {
 	position: relative;
-	background: url(//upload.tgd.kr/20200505/9943e290f10ddba19f3713c1939146af.png) no-repeat;
-	background-size: 146px auto;
+	background: url(//upload.tgd.kr/20200504/a8a3f50f0a057e62de2371374375393a.png) no-repeat;
+	background-size: 113px auto;
 	display: inline-block;
-	width: 146px;
+	width: 113px;
 	height: 45px;
 	animation: 2s heartBeat infinite;
 }
