@@ -1,0 +1,152 @@
+#main .menu-wrapper>.header {
+	background: #b0eadd;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #b0eadd;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #b0eadd;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #b0eadd;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+	color: #b0eadd;
+}
+
+#main .menu-wrapper>a>em {
+	color: #b0eadd;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+	color: #b0eadd;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #b0eadd;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #b0eadd;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #b0eadd;
+	border-color: #b0eadd;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #b0eadd;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: currentColor;
+}
+
+#board-info #board-info-profile-img {
+	float: left!important;
+	width: 7em;
+	height: 7em;
+}
+
+#board-info {
+	height: 9em;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #b0eadd;
+}
+
+#board-info h1 {
+	margin-top: 1em;
+}
+
+html, body {
+	height: auto !important;
+	background: #e1f5ec;
+	font-family: 'BinggraeMelona';
+}
+
+@font-face { font-family: 'BinggraeMelona'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+#board-info #board-info-profile-img {
+	transition: 0.5s;
+	border: 1px solid #999;
+	border-radius: 100%;
+}
+
+#board-info #board-info-profile-img:hover {
+	transform: scale(1.2);
+}
+
+#article-list>.article-list-row {
+	transition: 0.3s;
+}
+
+#article-list>.article-list-row:hover {
+	box-shadow: 2px 0px 10px 3px #b0eadd;
+	transform: scale(1.1);
+}
+
+#main .menu-wrapper .spacer {
+	background: none;
+}
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20200106/c57b423622596293a89a0a9c9d0fb9b6.png) no-repeat;
+	background-size: 150px auto;
+	display: block;
+	width: 150px;
+	height: 50px;
+	left: 0;
+	top: 0;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
+
+#article-content-wrapper>.header {
+	border-top: 2px solid #b0eadd;
+}
+
+#article-reply-area > .header h5 {
+	color: #b0eadd;
+}
+
+body {
+	height: auto !important;
+	background: none !important;
+	background-image: url(https://i.ibb.co/K9QxXSt/heart1.png), url(https://i.ibb.co/K9QxXSt/heart2.png), url(https://i.ibb.co/hZ4xk3s/heart3.png) !important;
+	-webkit-animation: snow 20s linear infinite !important;
+	-moz-animation: snow 20s linear infinite !important;
+	-ms-animation: snow 20s linear infinite !important;
+	animation: snow 20s linear infinite !important;
+}
+
+@keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+#board-info #board-info-bottom a {color: #b0eadd;}
