@@ -1,0 +1,92 @@
+html, body {
+	background: rgba(255, 189, 189, 1);
+}
+
+#main .menu-wrapper>.header {
+	background: #ff9292;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+header #header-bar>.row {
+	border-top: 5px solid #ff9292;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#main .menu-wrapper {
+	border-right: none;
+}
+
+#board-info #board-info-profile-img {
+	float: left!important;
+	width: 6em;
+	height: 6em;
+	border-radius: 20px;
+}
+
+#board-info {
+	height: 8em;
+}
+
+#board-info h1 {
+	margin-top: 20px;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #ff9292;
+}
+
+header #right-search-form>input[type=text] {
+	border: 3px solid #ff9292;
+	border-radius: 20px;
+}
+
+header #right-search-form>#right-search-btn {
+	color: #ff9292;
+}
+
+
+@font-face { font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal;
+}
+
+* {
+	font-family: 'Binggrae-Bold';
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #ff9292;
+	border-radius: 20px;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+	color: black;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: brown;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+	color: pink;
+}
+
+#main .menu-wrapper>a>em {
+	color: pink;
+}
+
+header .row>div:nth-child(1)>a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20200406/1e45520db8432b6976b1997acd639372.png) no-repeat;
+	background-size: 149px auto;
+	display: block;
+	width: 149px;
+	height: 50px;
+	left: 0;
+	top: 0;
+}
+
+header .row>div:nth-child(1)>a img {
+	display: none;
+}
