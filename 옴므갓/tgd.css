@@ -1,15 +1,20 @@
-@font-face { font-family: 'UhBeeBEOJJI'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeBEOJJI.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+	font-family: 'UhBeeBEOJJI';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeBEOJJI.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
-*{
+* {
 	font-family: 'UhBeeBEOJJI';
 	font-weight: 700;
 }
 
-header #header-bar>.row {
+header #header-bar > .row {
 	border-top: 5px solid #2d63b5;
 }
 
-#main .menu-wrapper>.header {
+#main .menu-wrapper > .header {
 	background: #2d63b5;
 }
 
@@ -21,30 +26,30 @@ header #header-bar #header-top-notice strong.notice-badge {
 	background: #2d63b5;
 }
 
-header #right-search-form>input[type=text] {
+header #right-search-form > input[type=text] {
 	border: 3px solid #2d63b5;
 }
 
-header #right-search-form>#right-search-btn {
+header #right-search-form > #right-search-btn {
 	color: #2d63b5;
 }
 
-#article-list>.article-list-row>.item>.list-header>span {
+#article-list > .article-list-row > .item > .list-header > span {
 	background-color: #2d63b5;
 }
 
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
+#article-list > .article-list-row > .item > .list-title > small.comment-count {
 	color: #2d63b5;
 }
 
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
 	color: black;
 }
 
 #board-info #board-info-profile-img {
 	width: 7em;
 	right: 7em;
-	float: left!important;
+	float: left !important;
 }
 
 #board-info {
@@ -55,12 +60,12 @@ header #right-search-form>#right-search-btn {
 	margin-top: 1em;
 }
 
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
 	background-color: #2d63b5;
 	border-color: #2d63b5;
 }
 
-.pagination>li>a, .pagination>li>span {
+.pagination > li > a, .pagination > li > span {
 	color: black;
 }
 
@@ -68,40 +73,43 @@ html, body {
 	background: #1ba1ff;
 }
 
-header .row>div:nth-child(1)>a {
+header .row > div:nth-child(1) > a {
 	float: left;
 	position: relative;
-	background: url(//upload.tgd.kr/20200504/a8a3f50f0a057e62de2371374375393a.png) no-repeat;
-	background-size: 200px auto;
+	background: url(//upload.tgd.kr/20200505/9943e290f10ddba19f3713c1939146af.png) no-repeat;
+	background-size: 260px auto;
 	display: block;
-	width: 200px;
+	width: 260px;
 	height: 80px;
 	left: 0;
 	top: 0;
 	animation: 2s flip infinite;
 }
 
-header .row>div:nth-child(1)>a img {
+header .row > div:nth-child(1) > a img {
 	display: none;
 }
 
-#article-content-wrapper>.header {
+#article-content-wrapper > .header {
 	border-top: 2px solid #2d63b5;
 }
 
-#article-reply-area > .header h5 {color: #2d63b5;}
+#article-reply-area > .header h5 {
+	color: #2d63b5;
+}
 
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
 	color: black;
 }
 
-.reply-writer.logged {}
+.reply-writer.logged {
+}
 
-#article-list>.article-list-row {
+#article-list > .article-list-row {
 	transition: 0.5s;
 }
 
-#article-list>.article-list-row:hover {
+#article-list > .article-list-row:hover {
 	transform: scale(1.025);
 	box-shadow: #0D37B5 0px 0px 12px 0px;
 	transition: all 0.35s;
@@ -148,4 +156,29 @@ header .row>div:nth-child(1)>a img {
 	100% {
 		top: -10px
 	}
+}
+
+
+@keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+html {
+	background: transparent !important;
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	height: auto !important;
+	background-image: url(//upload.tgd.kr/20200505/dc64e7e53666c3463aeefe03281b8018.png) !important;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
 }
