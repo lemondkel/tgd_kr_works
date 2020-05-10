@@ -1,0 +1,92 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+
+
+html, body {
+	font-family: 'Noto Sans KR';
+	background: rgb(232, 236, 241);
+}
+
+header #header-area a[href="/"] h1 {
+	position: relative;
+	background: url(//upload.tgd.kr/20200510/a091c646e9542884470a401a8184c41c.png) no-repeat;
+	background-size: 113px auto;
+	display: inline-block;
+	width: 113px;
+	height: 45px;
+
+}
+
+header>#header-area>a>h1 {
+	display: none;
+}
+
+header>#header-area>#header-bar-link{
+	color: #333
+}
+header>#header-area>#header-search-link {
+	color: #333;
+}
+
+header {
+	border-bottom: 4px solid rgb(232, 236, 241);
+}
+
+#header-top-notice strong.notice-badge {
+	background: rgb(4, 147, 114);
+	color: #fff;
+	border-radius: 20px;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+	color: #333;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #333;
+	color: #999;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+	color: #999;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: rgb(101, 198, 187);
+	border-color: rgb(101, 198, 187);
+	color: #fff;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: black;
+}
+
+nav#nav>.nav-header {
+	background: #333;
+	color: black;
+}
+
+#article-reply-area > .header h5 {color: black;}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+	color: black;
+}
+
+a {
+	color: rgb(30, 130, 76);
+}
+
+.fa-search :before{
+	color: rgb(22, 160, 133);
+}
+
+footer{
+	background: rgb(232, 236, 241);
+}
+
+footer .container{
+	color: #333;
+}
+
+#article-list #article-list-category{
+	background: #f5f5f5;
+}
