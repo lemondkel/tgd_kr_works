@@ -7,8 +7,17 @@
 
 html, body {
     font-family: 'Noto Sans KR';
-    background: rgb(228, 241, 254);
+    background: rgb(46, 49, 49);
     height: auto !important;
+}
+
+body {
+    background: rgb(46, 49, 49) !important;
+    background-image: url(https://upload.tgd.kr/20200517/078048265e93fbad83819aa55fec95e4.png)!important;
+    -webkit-animation: snow 10s linear infinite !important;
+    -moz-animation: snow 10s linear infinite !important;
+    -ms-animation: snow 10s linear infinite !important;
+    animation: snow 10s linear infinite !important;
 }
 
 #main .menu-wrapper > .header {
@@ -26,6 +35,19 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-radius: 20px;
 }
 
+header .row > div:nth-child(1) > a {
+    float: left;
+    position: relative;
+    background: url(//upload.tgd.kr/20200517/6ddcd08b668c37ebf5ae622a54a0111f.png) no-repeat;
+    background-size: 120px 73px;
+    display: block;
+    width: 120px;
+    height: 73px;
+    left: 0;
+    top: 0;
+    animation: 2s bounce infinite;
+}
+
 header #right-search-form > input[type=text] {
     border: 2px solid #ff3535;
     border-radius: 20px;
@@ -40,8 +62,8 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: #333;
-    color: #999;
+    background-color: #ff3535;
+    color: #fff;
 }
 
 #article-list > .article-list-row > .item > .list-title > small.comment-count {
@@ -58,8 +80,8 @@ header #right-search-form > #right-search-btn {
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    background-color: rgb(137, 196, 244);
-    border-color: rgb(137, 196, 244);
+    background-color: #ff3535;
+    border-color: #ff3535;
     color: #fff;
 }
 
@@ -71,9 +93,7 @@ header #right-search-form > #right-search-btn {
     width: 10em;
     height: 10em;
     float: left !Important;
-    border-radius: 100%;
-    border: 1px solid #999;
-    transition: 15s;
+    border: 3px solid #ff3535;
 }
 
 #board-info {
@@ -93,21 +113,16 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-title > small.favo {
-    color: #ff2c2c;
+    color: #ff3535;
 }
 
 header #header-bar > .row {
     border-radius: 20px;
-    border: 2px solid rgb(137, 196, 244);
+    border: 2px solid #ff3535;
 }
 
 #main #main-content > div.frame {
-    border: 3px solid #fff;
-    border-radius: 50px;
-}
-
-#board-info #board-info-profile-img:hover {
-    transform: rotate(1800deg);
+    /*border: 3px solid #ff3535;*/
 }
 
 #article-list > .article-list-row:hover > .item > .list-title > a {
@@ -140,8 +155,8 @@ img[alt=Broadcaster] {
     padding: 0 16px;
 }
 #article-list #article-list-category{
-    border-top: 2px solid cornflowerblue;
-    background: rgba(228, 241, 254);
+    border-top: 2px solid #ff3535;
+    background: #fff;
 }
 #article-list #article-list-category > a:first-child {
     color: black;
@@ -159,23 +174,11 @@ header #right-search-form > input[type=text] {
 
 
 span#viewers:after {
-    content: "명이 보고 있어요~";
+    content: "명이 보고 있어요 :)";
 }
 
 #board-info h1 > a {
     font-size: 40px;
-}
-
-header .row > div:nth-child(1) > a {
-    float: left;
-    position: relative;
-    background: url(//upload.tgd.kr/20200517/4b6e931038076478a63975e18ea22547.png) no-repeat;
-    background-size: 200px 73px;
-    display: block;
-    width: 200px;
-    height: 73px;
-    left: 0;
-    top: 0;
 }
 
 header .row > div:nth-child(1) > a img {
@@ -199,11 +202,11 @@ header #header-bar {
 }
 
 a {
-    color: rgb(65, 131, 215);
+    color: #fff;
 }
 
-.fa-search :before {
-    color: rgb(137, 196, 244);
+.fa-search:before {
+    color: #ff3535;
 }
 
 #article-list #article-option-area{
@@ -220,9 +223,88 @@ a {
 }
 
 #article-list>.article-list-row>.item>.list-header.v0>span{
-    color: #333;
+    color: #fff;
 }
 
 #article-list>.article-list-row:hover>.item>.list-header.v0>span{
+    color: #fff;
+}
+
+#board-info #viewers-area, #board-info #score-area{
     color: #333;
+}
+
+#article-list>.article-list-row>.item>.list-header>span{
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+footer{
+    color: #fff;
+}
+
+#movetotop{
+    background: #fff url(//upload.tgd.kr/20200517/a09b45ab48d39c6d3c6bbeccf58fbd83.png) center no-repeat;
+    width: 65px;
+    height: 65px;
+    opacity: 1;
+    border-radius: 100%;
+    transition: .5s ease-in-out;
+}
+#movetotop:hover{
+    transform: scale(1.2);
+}
+#movetotop img{
+    display: none;
+}
+@keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
