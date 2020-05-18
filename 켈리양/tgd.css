@@ -1,0 +1,150 @@
+#main .menu-wrapper > .header {
+	background: #f78955;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.comment-count {
+	color: #f78955;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	background: #f78955;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+	color: #f78955;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #f78955;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #f78955;
+	border-radius: 10px;
+}
+
+header #header-bar > .row {
+	border-top: 5px solid #f78955;
+}
+
+header #right-search-form > input[type=text] {
+	border: 3px solid #f78955;
+	border-radius: 20px;
+}
+
+header #right-search-form > #right-search-btn {
+	color: #f78955;
+}
+
+#main .menu-wrapper > a > em {
+	color: #ffba9a;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #f78955;
+	border-color: #f78955;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: #f78955;
+}
+
+#article-list #article-list-menu > .btn.write {
+	background-color: #f78955;
+	border-color: #f78955;
+	border-radius: 20px;
+}
+
+html, body {
+	background: #ffefd7;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.favo {
+	color: red;
+}
+
+
+header .row > div:nth-child(1) > a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20200311/2dc02fcde3b775007f0820ab09388640.png) no-repeat;
+	background-size: 200px auto;
+	display: block;
+	width: 200px;
+	height: 50px;
+	left: 0;
+	top: 0;
+	animation: 2s flip infinite;
+}
+
+header .row > div:nth-child(1) > a img {
+	display: none;
+}
+
+#article-content-wrapper > .header {
+	border-top: #f78955;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+	color: black;
+}
+
+#article-reply-area > .header h5 {
+	color: #f78955;
+}
+
+#writeCommentBtn {
+	background-color: #f78955;
+	border-color: #f78955;
+	border-radius: 20px;
+}
+
+@font-face {
+	font-family: 'netmarbleL';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.1/netmarbleL.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+* {
+	font-family: 'netmarbleL';
+}
+
+#article-list #article-list-category > a {
+	background: #ffefd7;
+}
+
+#article-list #article-list-category > a.active, #article-list #article-list-category > a:hover {
+	background: #ffefd7;
+}
+
+#article-list #article-list-category {
+	background: #ffefd7;
+}
+
+#board-info #board-info-profile-img {
+	float: left !important;
+	width: 7em;
+	height: 7em;
+	border-radius: 100%;
+	border: 2px solid #aaa;
+}
+
+#board-info {
+	height: 9em;
+}
+
+#board-info h1 {
+	margin-top: 1em;
+}
+
+#article-list > .article-list-row > .item {
+	transition: 0.2s;
+}
+
+#article-list > .article-list-row > .item:hover {
+	transform: translateX(10px);
+}
