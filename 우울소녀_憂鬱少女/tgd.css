@@ -1,0 +1,367 @@
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+html, body {
+	font-family: 'Noto Sans KR';
+	background: rgb(220, 198, 224);
+	height: auto !important;
+}
+
+#main .menu-wrapper > .header {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+header #header-bar > .row { /*border-top: 5px solid #000000;*/
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: rgb(220, 198, 224);
+	color: #FFFFFF;
+	border-radius: 0;
+}
+
+header #right-search-form > input[type=text] {
+	border: 2px solid rgb(148, 124, 176);
+	border-radius: 0;
+}
+
+header #right-search-form > #right-search-btn {
+	color: #000000;
+}
+
+#main .menu-wrapper > a > em {
+	color: #000000;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	background-color: rgb(148, 124, 176);
+	color: #FFFFFF;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.comment-count {
+	color: #000000;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+	color: #000000;
+}
+
+#article-list #article-list-category {
+	background-color: rgb(148, 124, 176);
+	border-top: 2px solid #000000;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: rgb(148, 124, 176);
+	border-color: rgb(148, 124, 176);
+	color: #333;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: #000000;
+}
+
+#board-info #board-info-profile-img {
+	width: 10em;
+	height: 10em;
+	float: left !Important;
+	border: 3px solid rgb(148, 124, 176);
+}
+
+#board-info {
+	height: 12em;
+}
+
+#board-info h1 {
+	margin-top: 2em;
+}
+
+#board-info h1 > a {
+	margin-left: 10px;
+}
+
+#board-info #board-info-bottom a:first-child {
+	margin-left: 10px;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.favo {
+	color: rgb(148, 124, 176);
+}
+
+header #header-bar > .row {
+	border-radius: 0;
+	border: 2px solid rgb(148, 124, 176);
+}
+
+#main #main-content > div.frame { /*border: 3px solid rgb(148,124,176);*/
+}
+
+#article-list > .article-list-row:hover > .item > .list-title > a {
+	font-weight: 700;
+}
+
+a.nav-link.active {
+}
+
+img[Alt-Broadcaster] {
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+}
+
+img[alt=Broadcaster] {
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+	border-radius: 0;
+}
+
+#article-list #article-list-category > a {
+	line-height: 50px;
+	height: 50px;
+	font-size: 14px;
+	background: #f5f5f5;
+	padding: 0 16px;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid rgb(148, 124, 176);
+	background: #FFFFFF;
+}
+
+#article-list #article-list-category > a:first-child {
+	color: #000000;
+}
+
+#article-list #article-list-category > a:hover {
+	font-weight: 700;
+	color: #000000 !important;
+}
+
+header #right-search-form > input[type=text] {
+	outline: none;
+	transition: 0.5s;
+}
+
+span#viewers:after {
+	content: "명이 보고 있어요~";
+}
+
+#board-info h1 > a {
+	font-size: 40px;
+}
+
+header #header-bar {
+	margin-top: 10px;
+}
+
+#article-content-wrapper > .header {
+	border-top: 2px solid #000000;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+	color: #000000;
+}
+
+#article-reply-area > .header h5 {
+	color: #000000;
+}
+
+a {
+	color: rgb(46, 49, 49);
+}
+
+.fa-search:before {
+	color: rgb(148, 124, 176);
+}
+
+#article-list #article-option-area {
+	position: absolute;
+	right: 16px;
+	top: -38px;
+	z-index: 20;
+}
+
+#main .menu-wrapper {
+	border: none;
+}
+
+#main .menu-wrapper .spacer {
+	background: transparent;
+}
+
+#article-list > .article-list-row > .item > .list-header.v0 > span {
+	color: #000000;
+}
+
+#article-list > .article-list-row:hover > .item > .list-header.v0 > span {
+	color: #000000;
+}
+
+#board-info #viewers-area, #board-info #score-area {
+	color: #000000;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	padding: 0 10px;
+	font-size: 10px;
+}
+
+.fa-search:before {
+	color: rgb(148, 124, 176);
+}
+
+#board-info #viewers-area, #board-info #score-area {
+	color: #000000
+}
+
+#main .menu-wrapper {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	overflow: hidden
+}
+
+button#writeCommentBtn {
+	background: rgb(220, 198, 224);
+	color: #000000;
+}
+
+footer {
+	color: #FFFFFF;
+}
+
+div#article-list {
+	background: url(https://cdn.discordapp.com/attachments/691426811279573093/711488617716908062/image0.jpg);
+	background-size: 30% auto;
+	background-repeat: no-repeat;
+	background-position: 400px 250px;
+}
+
+
+header .row > div:nth-child(1) > a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20200517/d5fe78be4b228d574aeaecd3e6a31671.png) no-repeat;
+	background-size: 150px 70px;
+	display: block;
+	width: 150px;
+	height: 70px;
+	left: 0;
+	top: 0;
+}
+
+
+header .row > div:nth-child(1) > a img {
+	display: none;
+}
+
+@keyframes shake {
+	from,
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	20%,
+	40%,
+	60%,
+	80% {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+
+header .row > div:nth-child(1) > a {
+
+
+	animation: 7.5s shake infinite;
+}
+
+
+body {
+	background-image: url(//upload.tgd.kr/20200517/cfd8807652ddbe76d1a9a3517dde65af.png),
+	url(//upload.tgd.kr/20200517/74b3f89a54339e447df160f8b495e4ad.png) !important;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+}
+
+@keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-moz-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-webkit-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	50% {
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-ms-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+#movetotop {
+	background: #fff url(//upload.tgd.kr/20200517/54cfb9b8f9139e4215167f94bd9b15c5.png) center no-repeat;
+	width: 60px;
+	height: 60px;
+	opacity: 1;
+	border-radius: 100%;
+	transition: .5s ease-in-out;
+}
+
+#movetotop:hover {
+	transform: scale(1.2);
+}
+
+#movetotop img {
+	display: none;
+}
+
+html, body {
+	background: black;
+}
+
+footer a, footer {
+	color: white !important;
+}
