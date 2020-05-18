@@ -1,0 +1,232 @@
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+html, body {
+	font-family: 'Noto Sans KR';
+	background: rgb(228, 241, 254);
+	height: auto !important;
+}
+
+#main .menu-wrapper > .header {
+	background: #fff;
+	color: black;
+}
+
+header #header-bar > .row {
+	/*border-top: 5px solid #333;*/
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: rgb(137, 196, 244);
+	color: #fff;
+	border-radius: 20px;
+}
+
+header #right-search-form > input[type=text] {
+	border: 2px solid rgb(137, 196, 244);
+	border-radius: 20px;
+}
+
+header #right-search-form > #right-search-btn {
+	color: #333;
+}
+
+#main .menu-wrapper > a > em {
+	color: #333;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	background-color: #333;
+	color: #999;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.comment-count {
+	color: #999;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+	color: black;
+}
+
+#article-list #article-list-category {
+	background-color: rgb(137, 196, 244);
+	border-top: 2px solid #333;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: rgb(137, 196, 244);
+	border-color: rgb(137, 196, 244);
+	color: #fff;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: black;
+}
+
+#board-info #board-info-profile-img {
+	width: 10em;
+	height: 10em;
+	float: left !Important;
+	border-radius: 100%;
+	border: 1px solid #999;
+	transition: 15s;
+}
+
+#board-info {
+	height: 12em;
+}
+
+#board-info h1 {
+	margin-top: 2em;
+}
+
+#board-info h1 > a {
+	margin-left: 10px;
+}
+
+#board-info #board-info-bottom a:first-child {
+	margin-left: 10px;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.favo {
+	color: #ff2c2c;
+}
+
+header #header-bar > .row {
+	border-radius: 20px;
+	border: 2px solid rgb(137, 196, 244);
+}
+
+#main #main-content > div.frame {
+	border: 3px solid #fff;
+	border-radius: 50px;
+}
+
+#board-info #board-info-profile-img:hover {
+	transform: rotate(1800deg);
+}
+
+#article-list > .article-list-row:hover > .item > .list-title > a {
+	font-weight: 700;
+}
+
+a.nav-link.active {
+}
+
+img[Alt-Broadcaster] {
+
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+}
+
+img[alt=Broadcaster] {
+
+	width: 18px;
+	height: 18px;
+	padding-left: 18px;
+	border-radius: 5px;
+}
+
+#article-list #article-list-category > a {
+	line-height: 50px;
+	height: 50px;
+	font-size: 14px;
+	background: #f5f5f5;
+	padding: 0 16px;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid cornflowerblue;
+	background: rgba(228, 241, 254);
+}
+
+#article-list #article-list-category > a:first-child {
+	color: black;
+}
+
+#article-list #article-list-category > a:hover {
+	font-weight: 700;
+	color: black !important;
+}
+
+header #right-search-form > input[type=text] {
+	outline: none;
+	transition: 0.5s;
+}
+
+
+span#viewers:after {
+	content: "명이 보고 있어요~";
+}
+
+#board-info h1 > a {
+	font-size: 40px;
+}
+
+header .row > div:nth-child(1) > a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20200516/a32d75b54d2508b8b7e6e7a24feaab89.png) no-repeat;
+	background-size: 200px 73px;
+	display: block;
+	width: 200px;
+	height: 73px;
+	left: 0;
+	top: 0;
+}
+
+header .row > div:nth-child(1) > a img {
+	display: none;
+}
+
+header #header-bar {
+	margin-top: 10px;
+}
+
+#article-content-wrapper > .header {
+	border-top: 2px solid #333;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+	color: black;
+}
+
+#article-reply-area > .header h5 {
+	color: black;
+}
+
+a {
+	color: rgb(65, 131, 215);
+}
+
+.fa-search :before {
+	color: rgb(137, 196, 244);
+}
+
+#article-list #article-option-area {
+	position: absolute;
+	right: 16px;
+	top: -38px;
+	z-index: 20;
+}
+
+#main .menu-wrapper {
+	border: none;
+}
+
+#main .menu-wrapper .spacer {
+	background: transparent;
+}
+
+#article-list > .article-list-row > .item > .list-header.v0 > span {
+	color: #333;
+}
+
+#article-list > .article-list-row:hover > .item > .list-header.v0 > span {
+	color: #333;
+}
