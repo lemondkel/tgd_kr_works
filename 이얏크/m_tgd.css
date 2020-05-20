@@ -1,0 +1,125 @@
+@font-face { font-family: 'MapoPeacefull'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoPeacefullA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    font-family: 'MapoPeacefull';
+    background: rgba(228, 241, 254);
+
+}
+header>#header-area>a>h1{
+    background: none;
+}
+header>#header-area>a>h1:before{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #58BAFB;
+    font-family: 'TTTogether';
+    content: '앗게더';
+    height: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    width: 90px;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px 0 #FFFFFF,
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+    text-indent: 0;
+    background: none;
+
+}
+header{
+    background: rgba(228, 241, 254);
+    border-bottom: 4px solid #85c6ff;
+}
+
+header>#header-area>#header-bar-link{
+    color: #333
+}
+header>#header-area>#header-search-link {
+    color: #333;
+}
+
+
+#header-top-notice strong.notice-badge {
+    background: rgba(228, 241, 254);
+    color: #3967fb;
+    border-radius: 10px;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #333;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    padding: 0 10px;
+    font-size: 10px;
+    background-color: #3967fb;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    color: #999;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #3967fb;
+    border-color: #3967fb;
+    color: #fff;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: black;
+}
+
+nav#nav>.nav-header {
+    background: rgba(228, 241, 254);
+    color: #3967fb;
+}
+
+#article-reply-area > .header h5 {color: black;}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: black;
+}
+
+a {
+    color: #fff;
+}
+.fa-bars:before{
+    color: #3967fb;
+}
+.fa-search:before {
+    color: #3967fb;
+}
+
+
+footer{
+    background: rgba(228, 241, 254);
+}
+
+
+footer, footer a {
+    color: #3967fb !important;
+}
+
+
+#article-list #article-list-category{
+    background: #fff;
+}
+
+#article-list #article-list-category>a{
+    background: #fff;
+}
+#board-info #viewers-area, #board-info #score-area{
+    color: #fff;
+}
+
+#article-list>.article-list-row.notice{
+    background: rgba(228, 241, 254);
+}
