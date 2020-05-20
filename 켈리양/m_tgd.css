@@ -1,0 +1,67 @@
+header>#header-area>#header-search-link {
+	color: #f78955;
+	margin-top: 6px;
+}
+
+header {
+	border-bottom: 4px solid #f78955;
+	height: 62px !important;
+	background: #ffefd7;
+}
+
+#header-top-notice strong.notice-badge {
+	background: #f78955;
+	border-radius: 20px;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+	color: #f78955;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+	color: #f78955;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+	background-color: #f78955;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #f78955;
+	border-color: #f78955;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: #f78955;
+}
+
+header>#header-area>a>h1 {
+	background: url(//upload.tgd.kr/20200311/2dc02fcde3b775007f0820ab09388640.png) no-repeat;
+	background-size: 180px auto;
+	display: inline-block;
+	width: 180px;
+	height: 45px;
+}
+
+header>#header-area>#header-bar-link {
+	margin-top: 6px;
+	color: #f78955;
+}
+
+nav#nav>.nav-header {
+	background: #f78955;
+}
+
+@font-face { font-family: 'netmarbleL'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.1/netmarbleL.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {font-family: 'netmarbleL';}
+
+#article-list-menu>.btn.write {
+	background-color: #f78955;
+	border-color: #f78955;
+	border-radius: 20px;
+}
+
+#article-list>.article-list-row.notice {
+	background: #fff5e2;
+}

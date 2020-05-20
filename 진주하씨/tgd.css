@@ -1,0 +1,169 @@
+@font-face {
+	font-family: 'LotteMartHappy';
+	font-style: normal;
+	font-weight: 400;
+	src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'LotteMartHappy';
+	font-style: normal;
+	font-weight: 700;
+	src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+}
+
+.lottemarthappy * {
+	font-family: 'LotteMartHappy', sans-serif;
+}
+
+* {
+	font-family: 'LotteMartHappy';
+}
+
+#main .menu-wrapper > .header {
+	background: #a0f9a0;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+	background: #a0f9a0;
+	border-radius: 10px;
+}
+
+header #header-bar > .row {
+	border-top: 5px solid #a0f9a0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+header #right-search-form > input[type=text] {
+	border: 3px solid #a0f9a0;
+	border-radius: 10px;
+}
+
+header #right-search-form > #right-search-btn {
+	color: #a0f9a0;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	background-color: #a0f9a0;
+}
+
+#article-list > .article-list-row > .item > .list-title > small.comment-count {
+	color: #a0f9a0;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+	color: black;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #a0f9a0;
+	border-color: #a0f9a0;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: black;
+}
+
+#article-list #article-list-category {
+	border-top: 2px solid #a0f9a0;
+}
+
+#main .menu-wrapper > a > em {
+	color: #a0f9a0;
+}
+
+#main .menu-wrapper > a > i.fa.fa-square {
+	color: #a0f9a0;
+}
+
+html, body {
+	background: #e8ffe8;
+}
+
+#board-info #board-info-profile-img {
+	float: left !important;
+	width: 15em;
+	height: 15em;
+	border-radius: 50%;
+	border: 1px solid #666;
+}
+
+div#board-info {
+	height: 17em;
+}
+
+#board-info h1 > a {
+	font-size: 36px;
+}
+
+#board-info h1 {
+	margin-top: 2.5em;
+}
+
+#board-info #board-info-bottom #addFavoriteBtn {
+	margin-left: 10px;
+}
+
+#board-info #board-info-bottom {
+	font-size: 20px;
+}
+
+span#viewers:after {
+	content: "마리의 깨굴단.";
+}
+
+header .row > div:nth-child(1) > a {
+	float: left;
+	position: relative;
+	background: url(//upload.tgd.kr/20190930/b608adcda1c33ffa172430f9c3c1f597.png) no-repeat;
+	background-size: 200px auto;
+	display: block;
+	width: 200px;
+	height: 80px;
+	left: 0;
+	top: 0;
+}
+
+header .row > div:nth-child(1) > a img {
+	display: none;
+}
+
+@keyframes swing {
+	20% {
+		-webkit-transform: rotate3d(0, 0, 1, 15deg);
+		transform: rotate3d(0, 0, 1, 15deg);
+	}
+
+	40% {
+		-webkit-transform: rotate3d(0, 0, 1, -10deg);
+		transform: rotate3d(0, 0, 1, -10deg);
+	}
+
+	60% {
+		-webkit-transform: rotate3d(0, 0, 1, 5deg);
+		transform: rotate3d(0, 0, 1, 5deg);
+	}
+
+	80% {
+		-webkit-transform: rotate3d(0, 0, 1, -5deg);
+		transform: rotate3d(0, 0, 1, -5deg);
+	}
+
+	to {
+		-webkit-transform: rotate3d(0, 0, 1, 0deg);
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+}
+
+div#left-banner-area {
+	width: 80px;
+	height: 80px;
+	background: url(//upload.tgd.kr/20190930/7711b64ae8de9c9e50097ce34af78562.png) center 0/100% no-repeat !important;
+	position: absolute;
+	top: -160px;
+	left: 210px;
+	animation: 1.5s swing infinite;
+}
