@@ -1,13 +1,8 @@
-@font-face {
-    font-family: 'Noto Sans KR';
-    font-style: normal;
-    font-weight: 400;
-    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
-}
 
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
 html, body {
-    font-family: 'Noto Sans KR';
-    background: rgb(2, 39, 105);
+    font-family: 'yg-jalnan';
+    background: #800000;
     height: auto !important;
 }
 
@@ -20,14 +15,14 @@ header #header-bar > .row { /*border-top: 5px solid #000000;*/
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: rgb(31, 58, 147);
+    background: #800000;
     color: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 0;
 }
 
 header #right-search-form > input[type=text] {
-    border: 2px solid rgb(2, 39, 105);
-    border-radius: 20px;
+    border: 2px solid rgb(150, 40, 27);
+    border-radius: 0;
 }
 
 header #right-search-form > #right-search-btn {
@@ -39,7 +34,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: rgb(2, 39, 105);
+    background-color: rgb(150, 40, 27);
     color: #FFFFFF;
 }
 
@@ -52,13 +47,13 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list #article-list-category {
-    background-color: rgb(2, 39, 105);
+    background-color: rgb(150, 40, 27);
     border-top: 2px solid #000000;
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    background-color: rgb(2, 39, 105);
-    border-color: rgb(2, 39, 105);
+    background-color: rgb(150, 40, 27);
+    border-color: rgb(150, 40, 27);
     color: #FFFFFF;
 }
 
@@ -70,7 +65,7 @@ header #right-search-form > #right-search-btn {
     width: 10em;
     height: 10em;
     float: left !Important;
-    border: 3px solid rgb(2, 39, 105);
+    border: 3px solid rgb(150, 40, 27);
 }
 
 #board-info {
@@ -90,16 +85,16 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-title > small.favo {
-    color: rgb(2, 39, 105);
+    color: rgb(150, 40, 27);
 }
 
 header #header-bar > .row {
-    border-radius: 20px;
-    border: 2px solid rgb(2, 39, 105);
+    border-radius: 0;
+    border: 2px solid rgb(150, 40, 27);
 }
 
 #main #main-content > div.frame {
-    border-radius: 20px;
+    border-radius: 0;
 }
 
 #article-list > .article-list-row:hover > .item > .list-title > a {
@@ -119,7 +114,7 @@ img[alt=Broadcaster] {
     width: 18px;
     height: 18px;
     padding-left: 18px;
-    border-radius: 20px;
+    border-radius: 0;
 }
 
 #article-list #article-list-category > a {
@@ -131,7 +126,7 @@ img[alt=Broadcaster] {
 }
 
 #article-list #article-list-category {
-    border-top: 2px solid rgb(2, 39, 105);
+    border-top: 2px solid rgb(150, 40, 27);
     background: #FFFFFF;
 }
 
@@ -150,7 +145,7 @@ header #right-search-form > input[type=text] {
 }
 
 span#viewers:after {
-    content: "명이 보고 있어요~";
+    content: "명이 보고 있어요!";
 }
 
 #board-info h1 > a {
@@ -178,7 +173,7 @@ a {
 }
 
 .fa-search:before {
-    color: rgb(2, 39, 105);
+    color: #fff;
 }
 
 #article-list #article-option-area {
@@ -214,7 +209,7 @@ a {
 }
 
 .fa-search:before {
-    color: rgb(2, 39, 105);
+    color: #fff;
 }
 
 #board-info #viewers-area, #board-info #score-area {
@@ -222,15 +217,15 @@ a {
 }
 
 #main .menu-wrapper {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     overflow: hidden
 }
 
 button#writeCommentBtn {
-    background: rgb(31, 58, 147);
+    background: #800000;
     color: #000000;
 }
 
@@ -246,9 +241,9 @@ footer, footer a {
 }
 
 header .row > div:nth-child(1) > a:after {
-    color: rgb(31, 58, 147);
+    color: rgb(150, 40, 27);
     font-family: 'TTTogether';
-    content: '패게더';
+    content: '돔게더';
     height: 70px;
     line-height: 70px;
     font-size: 56px;
@@ -261,7 +256,7 @@ header .row > div:nth-child(1) > a:after {
     1px -1px 0 #FFFFFF,
     -1px 1px 0 #FFFFFF,
     1px 1px 0 #FFFFFF;
-    animation: 0.8s pulse infinite;
+    animation: heartBeat 1s infinite;
 }
 
 header .row > div:nth-child(1) > a {
@@ -275,28 +270,74 @@ header .row > div:nth-child(1) > a > img {
 }
 
 a.btn.square.btn-primary.write {
-    background: rgb(2, 39, 105);
-    border-color: rgb(2, 39, 105);
-    border-radius: 20px;
+    background: rgb(150, 40, 27);
+    border-color: rgb(150, 40, 27);
+    border-radius: 0;
 }
 
 a.btn.square.btn-default.best {
-    border-radius: 20px;
+    border-radius: 0;
 }
 
-@keyframes pulse {
-    from {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+
+#article-list{
+    padding-top: 10px;
+    border-radius: 20px;
+    background-image: url(//upload.tgd.kr/20200521/5ec238500da533a4652c408db5fc48df.jpg);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 360px 400px;
+    margin-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+
+#movetotop {
+    background: #fff url(//upload.tgd.kr/20200521/5ec238500da533a4652c408db5fc48df.jpg) center no-repeat;
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    border-radius: 100%;
+    transition: .3s ease-in-out;
+    background-size: contain;
+}
+
+#movetotop:hover {
+    transform: scale(1.1);
+}
+
+#movetotop img {
+    display: none;
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 
-    50% {
-        -webkit-transform: scale3d(1.05, 1.05, 1.05);
-        transform: scale3d(1.05, 1.05, 1.05);
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
     }
 
-    to {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+#article-list #boardSearchForm .fa-search:before{
+    color: #333;
 }

@@ -1,0 +1,127 @@
+
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+html, body {
+    font-family: 'yg-jalnan';
+    background: #800000;
+
+}
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header>#header-area>a>h1{
+    background: none;
+}
+header>#header-area>a>h1:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(150, 40, 27);
+    font-family: 'TTTogether';
+    content: '돔게더';
+    height: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    width: 90px;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px 0 #FFFFFF,
+    -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+    text-indent: 0;
+    background: none;
+
+}
+header{
+    background:#800000;
+    border-bottom: 4px solid #800000;
+}
+
+header>#header-area>#header-bar-link{
+    color: #333
+}
+header>#header-area>#header-search-link {
+    color: #333;
+}
+
+
+#header-top-notice strong.notice-badge {
+    background: #800000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #333;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    padding: 0 10px;
+    font-size: 10px;
+    background-color: #800000;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    color: #999;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #800000;
+    border-color: #800000;
+    color: #fff;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: black;
+}
+
+nav#nav>.nav-header {
+    background: #800000;
+    color: #fff;
+}
+
+#article-reply-area > .header h5 {color: black;}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: black;
+}
+
+a {
+    color: #fff;
+}
+.fa-bars:before{
+    color: #fff;
+}
+.fa-search:before {
+    color: #fff;
+}
+
+
+footer{
+    background: #800000;
+}
+
+
+footer, footer a {
+    color: #fff !important;
+}
+
+
+#article-list #article-list-category{
+    background: #fff;
+}
+
+#article-list #article-list-category>a{
+    background: #fff;
+}
+#board-info #viewers-area, #board-info #score-area{
+    color: #fff;
+}
+
+.input-group-btn:last-child>.btn .fa-search:before {
+    color: #333;
+}
