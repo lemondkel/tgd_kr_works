@@ -1,0 +1,125 @@
+@font-face { font-family: 'BBTreeGR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); font-weight: normal; font-style: normal; }
+html, body {
+    font-family: 'BBTreeGR';
+}
+
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header > #header-area > a > h1 {
+    background: none;
+}
+
+header > #header-area > a > h1:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(137, 196, 244);
+    font-family: 'TTTogether';
+    content: '오게더';
+    height: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    width: 90px;
+    letter-spacing: -2px;
+    text-shadow: 3px 3px 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+    text-indent: 0;
+    background: none;
+}
+
+header {
+    background: #cee8f5;
+    border-bottom: 4px solid #cee8f5;
+}
+
+header > #header-area > #header-bar-link {
+    color: #000000;
+}
+
+header > #header-area > #header-search-link {
+    color: #000000;
+}
+
+#header-top-notice strong.notice-badge {
+    background: rgb(137, 196, 244);
+    color: #FFFFFF;
+    border-radius: 0;
+}
+
+#article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span {
+    color: #000000;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+    padding: 0 10px;
+    font-size: 10px;
+    background-color: #cee8f5;
+}
+
+#article-list > .article-list-row > .item > a.list-title > small.comment-count {
+    color: #999;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #cee8f5;
+    border-color: #cee8f5;
+    color: #FFFFFF;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #000000;
+}
+
+nav#nav > .nav-header {
+    background: #cee8f5;
+    color: #FFFFFF;
+}
+
+#article-reply-area > .header h5 {
+    color: #000000;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+    color: #000000;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.fa-bars:before {
+    color: #FFFFFF;
+}
+
+.fa-search:before {
+    color: #FFFFFF;
+}
+
+footer {
+    background: #cee8f5;
+}
+
+footer, footer a {
+    color: #FFFFFF !important;
+}
+
+#article-list #article-list-category {
+    background: #FFFFFF;
+}
+
+#article-list #article-list-category > a {
+    background: #FFFFFF;
+}
+
+#board-info #viewers-area, #board-info #score-area {
+    color: #FFFFFF;
+}
+
+.input-group-btn:last-child > .btn .fa-search:before {
+    color: #000000;
+}

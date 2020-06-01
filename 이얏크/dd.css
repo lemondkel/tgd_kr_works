@@ -1,0 +1,208 @@
+@font-face { font-family: 'Goyang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Goyang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html, body {
+    font-family: 'Goyang' !important;
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes jello {
+    from,
+    11.1%,
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    22.2% {
+        -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+        transform: skewX(-12.5deg) skewY(-12.5deg);
+    }
+
+    33.3% {
+        -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+        transform: skewX(6.25deg) skewY(6.25deg);
+    }
+
+    44.4% {
+        -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+        transform: skewX(-3.125deg) skewY(-3.125deg);
+    }
+
+    55.5% {
+        -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+        transform: skewX(1.5625deg) skewY(1.5625deg);
+    }
+
+    66.6% {
+        -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+        transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    }
+
+    77.7% {
+        -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+        transform: skewX(0.390625deg) skewY(0.390625deg);
+    }
+
+    88.8% {
+        -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+        transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    }
+}
+html, body {
+    background: #d4d4d4;
+}
+
+#main .menu-wrapper>.header {
+    background: #ffffff;
+    color: #4c4c4c;
+}
+
+header #header-bar {
+    margin: 0 auto !important;
+}
+
+header #header-bar>.row {
+    border-top: 5px solid #4c4c4c;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #4c4c4c;
+}
+
+header #right-search-form>input[type=text] {
+    border: 3px solid #4c4c4c;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #4c4c4c;
+}
+
+#article-list #article-list-category {
+    border-top: 2px solid #4c4c4c;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #4c4c4c;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #4c4c4c;
+    border-color: #4c4c4c;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #4c4c4c;
+}
+
+#board-info #board-info-profile-img {
+    float: left !important;
+    width: 7em;
+    height: 7em;
+}
+
+div#board-info {
+    height: 9em;
+}
+
+#board-info h1 {
+    margin-top: 1em;
+}
+
+#article-content-wrapper>.header {
+    border-top: 2px solid #4c4c4c;
+}
+
+span#viewers:after {
+    content: "명 접속중!";
+}
+
+header .row>div:nth-child(1)>a {
+    float: left;
+    position: relative;
+    background: url(https://upload.tgd.kr/20190622/00aa7814dfa74f01e3a8fe9789dcddff.png) no-repeat;
+    background-size: 170px auto;
+    display: block;
+    width: 170px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    animation: heartBeat 1s infinite;
+}
+
+header .row>div:nth-child(1)>a img {
+    display: none;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-category > span {
+    color: black !important;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    color: #d8d8d8;
+}
+
+#article-list>.article-list-row:nth-of-type(2) {
+    border-top-color: #4c4c4c;
+}
+
+#main .menu-wrapper .spacer {
+    background: #d4d4d4;
+}
+
+#main .menu-wrapper>a>em {
+    color: #d4d4d4;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: black;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count{
+    color: #9a9a9a;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: black;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: black;
+}
+
+#article-list {
+    padding-top: 10px;
+    border-radius: 20px;
+    background-image: url(//upload.tgd.kr/20190622/cb848d25a282482c5ec61c608016ec1a.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 360px 650px;
+    margin-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
