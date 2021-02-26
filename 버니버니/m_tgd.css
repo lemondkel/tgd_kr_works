@@ -25,7 +25,7 @@ header > #header-area > a > h1:before {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(211, 84, 0);
+    color: rgb(72, 72, 72);
     font-family: 'TTTogether';
     content: 'Bunny Bunny';
     height: 38px;
@@ -38,8 +38,8 @@ header > #header-area > a > h1:before {
 }
 
 header {
-    background: rgb(248, 148, 6);
-    border-bottom: 4px solid rgb(248, 148, 6);
+    background: rgb(90, 90, 90);
+    border-bottom: 4px solid rgb(90, 90, 90);
 }
 
 header > #header-area > #header-bar-link {
@@ -51,7 +51,7 @@ header > #header-area > #header-search-link {
 }
 
 #header-top-notice strong.notice-badge {
-    background: rgb(211, 84, 0);
+    background: rgb(72, 72, 72);
     color: #FFFFFF;
     border-radius: 0;
 }
@@ -63,7 +63,7 @@ header > #header-area > #header-search-link {
 #article-list > .article-list-row > .item > .list-header > span {
     padding: 0 10px;
     font-size: 10px;
-    background-color: rgb(248, 148, 6);
+    background-color: rgb(90, 90, 90);
 }
 
 #article-list > .article-list-row > .item > a.list-title > small.comment-count {
@@ -71,8 +71,8 @@ header > #header-area > #header-search-link {
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    background-color: rgb(248, 148, 6);
-    border-color: rgb(248, 148, 6);
+    background-color: rgb(90, 90, 90);
+    border-color: rgb(90, 90, 90);
     color: #FFFFFF;
 }
 
@@ -81,7 +81,7 @@ header > #header-area > #header-search-link {
 }
 
 nav#nav > .nav-header {
-    background: rgb(248, 148, 6);
+    background: rgb(90, 90, 90);
     color: #FFFFFF;
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
 footer {
-    background: rgb(248, 148, 6);
+    background: rgb(90, 90, 90);
 }
 
 footer, footer a {
