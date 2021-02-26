@@ -7,7 +7,8 @@
 
 html, body {
     font-family: 'Noto Sans KR';
-    background: rgb(248, 148, 6);
+    background: linear-gradient(142deg, #dad6f1, #b78dd3 31%, #8b57b5 65%, #421e5e);
+
     height: auto !important;
 }
 
@@ -20,13 +21,13 @@ header #header-bar > .row { /*border-top: 5px solid #000000;*/
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: rgb(248, 148, 6);
+    background: rgb(90, 90, 90);
     color: #FFFFFF;
     border-radius: 0;
 }
 
 header #right-search-form > input[type=text] {
-    border: 2px solid rgb(211, 84, 0);
+    border: 2px solid rgb(72, 72, 72);
     border-radius: 0;
 }
 
@@ -39,7 +40,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: rgb(211, 84, 0);
+    background-color: rgb(72, 72, 72);
     color: #FFFFFF;
 }
 
@@ -52,13 +53,13 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list #article-list-category {
-    background-color: rgb(211, 84, 0);
+    background-color: rgb(72, 72, 72);
     border-top: 2px solid #000000;
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    background-color: rgb(211, 84, 0);
-    border-color: rgb(211, 84, 0);
+    background-color: rgb(72, 72, 72);
+    border-color: rgb(72, 72, 72);
     color: #FFFFFF;
 }
 
@@ -70,7 +71,8 @@ header #right-search-form > #right-search-btn {
     width: 10em;
     height: 10em;
     float: left !Important;
-    border: 3px solid rgb(211, 84, 0);
+    border: 3px solid rgb(72, 72, 72);
+    border-radius: 100%;
 }
 
 #board-info {
@@ -90,12 +92,12 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-title > small.favo {
-    color: rgb(211, 84, 0);
+    color: rgb(72, 72, 72);
 }
 
 header #header-bar > .row {
     border-radius: 0;
-    border: 2px solid rgb(211, 84, 0);
+    border: 2px solid rgb(72, 72, 72);
 }
 
 #main #main-content > div.frame {
@@ -131,7 +133,7 @@ img[alt=Broadcaster] {
 }
 
 #article-list #article-list-category {
-    border-top: 2px solid rgb(211, 84, 0);
+    border-top: 2px solid rgb(72, 72, 72);
     background: #FFFFFF;
 }
 
@@ -178,7 +180,7 @@ a {
 }
 
 .fa-search:before {
-    color: rgb(211, 84, 0);
+    color: rgb(72, 72, 72);
 }
 
 #article-list #article-option-area {
@@ -214,7 +216,7 @@ a {
 }
 
 .fa-search:before {
-    color: rgb(211, 84, 0);
+    color: rgb(72, 72, 72);
 }
 
 #board-info #viewers-area, #board-info #score-area {
@@ -230,8 +232,8 @@ a {
 }
 
 button#writeCommentBtn {
-    background: rgb(248, 148, 6);
-    border-color: rgb(248, 148, 6);
+    background: rgb(90, 90, 90);
+    border-color: rgb(90, 90, 90);
     color: #000000;
 }
 
@@ -241,7 +243,7 @@ footer, footer a {
 
 
 header .row > div:nth-child(1) > a:after {
-    content:'';
+    content: '';
     float: left;
     position: relative;
     background: url(//upload.tgd.kr/20200527/51e65b92dda89881d5df8e688658d3bc.png) no-repeat;
@@ -254,7 +256,7 @@ header .row > div:nth-child(1) > a:after {
 
 }
 
-#movetotop{
+#movetotop {
     background: #fff url(//upload.tgd.kr/20200527/99ee2bb7109fcffd975e19c4954c3074.png) top no-repeat;
     width: 60px;
     height: 60px;
@@ -263,12 +265,15 @@ header .row > div:nth-child(1) > a:after {
     transition: .5s ease-in-out;
     background-size: contain;
 }
-#movetotop:hover{
+
+#movetotop:hover {
     transform: scale(1.1);
 }
-#movetotop img{
+
+#movetotop img {
     display: none;
 }
+
 header .row > div:nth-child(1) > a {
     background: none;
 
@@ -278,12 +283,82 @@ header .row > div:nth-child(1) > a {
 header .row > div:nth-child(1) > a img {
     display: none;
 }
+
 a.btn.square.btn-primary.write {
-    background: rgb(211, 84, 0);
-    border-color: rgb(211, 84, 0);
+    background: rgb(72, 72, 72);
+    border-color: rgb(72, 72, 72);
     border-radius: 0;
 }
 
 a.btn.square.btn-default.best {
     border-radius: 0;
+}
+
+body {
+    height: auto !important;
+    background: none !important;
+    background-image: url(https://i.ibb.co/K9QxXSt/heart1.png), url(https://i.ibb.co/K9QxXSt/heart2.png), url(https://i.ibb.co/hZ4xk3s/heart3.png) !important;
+    -webkit-animation: snow 20s linear infinite !important;
+    -moz-animation: snow 20s linear infinite !important;
+    -ms-animation: snow 20s linear infinite !important;
+    animation: snow 20s linear infinite !important;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+header .row > div:nth-child(1) > a:after {
+    animation: 2s flip infinite;
+}
+
+@keyframes flip {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    20% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1;
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        opacity: 0;
+    }
+}
+
+
+#main .menu-wrapper > .header:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
