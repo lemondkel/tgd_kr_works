@@ -54,7 +54,7 @@ header #right-search-form > input[type=text] {
 	color: #f7a8ba;
 }
 
-html, body {
+html {
 	background: #ffe6ea;
 }
 
@@ -171,7 +171,6 @@ header .row > div:nth-child(1) > a {
 
 body {
 	height: auto !important;
-	background: none !important;
 	background-image: url(https://i.ibb.co/K9QxXSt/heart1.png), url(https://i.ibb.co/K9QxXSt/heart2.png), url(https://i.ibb.co/hZ4xk3s/heart3.png) !important;
 	-webkit-animation: snow 10s linear infinite !important;
 	-moz-animation: snow 10s linear infinite !important;
