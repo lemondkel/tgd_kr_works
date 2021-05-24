@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+html, body {
+	font-family: 'Noto Sans KR';
+}
+
+@font-face {
+	font-family: 'CookieRunOTF-Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+header > #header-area > a > h1:before {
+	font-family: 'CookieRunOTF-Bold';
+}
+
+header > #header-area > a > h1 {
+	background: none;
+}
+
+header > #header-area > a > h1:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #d35400;
+	content: '하게더';
+	height: 38px;
+	line-height: 38px;
+	font-size: 30px;
+	letter-spacing: -2px;
+	text-shadow: 3px 3px 0 rgb(245, 171, 53), -1px -1px 0 rgb(245, 171, 53), 1px -1px 0 rgb(245, 171, 53), -1px 1px 0 rgb(245, 171, 53), 1px 1px 0 rgb(245, 171, 53);
+	text-indent: 0;
+	background: none;
+}
+
+header {
+	background: #fde3a7;
+	border-bottom: 4px solid #fde3a7;
+}
+
+header > #header-area > #header-bar-link {
+	color: rgb(253, 227, 167);
+}
+
+header > #header-area > #header-search-link {
+	color: rgb(253, 227, 167);
+}
+
+#header-top-notice strong.notice-badge {
+	background: #d35400;
+	color: rgb(245, 171, 53);
+	border-radius: 0;
+}
+
+#article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span {
+	color: rgb(253, 227, 167);
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	padding: 0 10px;
+	font-size: 10px;
+	background-color: #fde3a7;
+}
+
+#article-list > .article-list-row > .item > a.list-title > small.comment-count {
+	color: #999;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #fde3a7;
+	border-color: #fde3a7;
+	color: rgb(245, 171, 53);
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: rgb(253, 227, 167);
+}
+
+nav#nav > .nav-header {
+	background: #fde3a7;
+	color: rgb(245, 171, 53);
+}
+
+#article-reply-area > .header h5 {
+	color: rgb(253, 227, 167);
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+	color: rgb(253, 227, 167);
+}
+
+a {
+	color: rgb(245, 171, 53);
+}
+
+.fa-bars:before {
+	color: rgb(245, 171, 53);
+}
+
+.fa-search:before {
+	color: rgb(245, 171, 53);
+}
+
+footer {
+	background: #fde3a7;
+}
+
+footer, footer a {
+	color: rgb(245, 171, 53) !important;
+}
+
+#article-list #article-list-category {
+	background: rgb(245, 171, 53);
+}
+
+#article-list #article-list-category > a {
+	background: rgb(245, 171, 53);
+}
+
+#board-info #viewers-area, #board-info #score-area {
+	color: rgb(245, 171, 53);
+}
+
+.input-group-btn:last-child > .btn .fa-search:before {
+	color: rgb(253, 227, 167);
+}
+
+#article-list > .article-list-row > .item > .list-header.v0 > span {
+	color: rgb(253, 227, 167);
+}
