@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+html, body {
+	font-family: 'Noto Sans KR';
+}
+
+@font-face {
+	font-family: 'TTTogether';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+header > #header-area > a > h1:before {
+	font-family: 'TTTogether';
+}
+
+header > #header-area > a > h1 {
+	background: none;
+}
+
+header > #header-area > a > h1:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #333;
+	content: '도그닥';
+	height: 38px;
+	line-height: 38px;
+	font-size: 30px;
+	letter-spacing: -2px;
+	text-shadow: 3px 3px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+	text-indent: 0;
+	background: none;
+}
+
+header {
+	background: #663399CC;
+	border-bottom: 4px solid #663399CC;
+}
+
+header > #header-area > #header-bar-link {
+	color: #FFFFFF;
+}
+
+header > #header-area > #header-search-link {
+	color: #FFFFFF;
+}
+
+#header-top-notice strong.notice-badge {
+	background: #333;
+	color: #333;
+	border-radius: 0;
+}
+
+#article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span {
+	color: black;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+	padding: 0 10px;
+	font-size: 10px;
+	background-color: #663399CC;
+}
+
+#article-list > .article-list-row > .item > a.list-title > small.comment-count {
+	color: #999;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #663399CC;
+	border-color: #663399CC;
+	color: #333;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: #FFFFFF;
+}
+
+nav#nav > .nav-header {
+	background: #663399CC;
+	color: #333;
+}
+
+#article-reply-area > .header h5 {
+	color: #FFFFFF;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+	color: black;
+}
+
+a {
+	color: #333;
+}
+
+.fa-bars:before {
+	color: #333;
+}
+
+.fa-search:before {
+	color: #333;
+}
+
+footer {
+	background: #663399CC;
+}
+
+footer, footer a {
+	color: #333 !important;
+}
+
+#article-list #article-list-category {
+	background: #333;
+}
+
+#article-list #article-list-category > a {
+	background: #FFF;
+}
+
+#board-info #viewers-area, #board-info #score-area {
+	color: #333;
+}
+
+.input-group-btn:last-child > .btn .fa-search:before {
+	color: #FFFFFF;
+}
+
+#article-list > .article-list-row > .item > .list-header.v0 > span {
+	color: #FFF;
+	background-color: #333;
+}
