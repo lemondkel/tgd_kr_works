@@ -9,10 +9,6 @@ html, body {
 	font-family: 'Noto Sans KR';
 	background: #feece7;
 	height: auto !important;
-	background-image: url(https://media.discordapp.net/attachments/619755115795972106/884740451758915594/20210401___.png?width=971&height=776), url(https://media.discordapp.net/attachments/619755115795972106/884740245680160778/-2.gif);
-	background-repeat: no-repeat;
-	background-position: 24% -2.8%, 5% 90%;
-	background-size: 180px 155px, 470px 500px;
 }
 
 #main .menu-wrapper > .header {
@@ -276,7 +272,7 @@ a.btn.square.btn-default.best {
 }
 
 #article-list > .article-list-row:hover {
-	background: #fafafa;
+	background: #ffe7e7;
 	transform: scale(1.05);
 }
 
@@ -325,4 +321,56 @@ a.btn.square.btn-default.best {
 
 #movetotop:hover {
 	transform: scale(1.2);
+}
+
+header > .container:nth-child(1) > .row:before {
+	background: red;
+	width: 117px;
+	height: 95px;
+	position: absolute;
+	margin-left: 167px;
+	background: url(https://media.discordapp.net/attachments/619755115795972106/884740451758915594/20210401___.png?width=971&height=776);
+	background-size: auto 100%;
+	margin-top: -10px;
+}
+
+div#article-list-category:before {
+	width: 500px;
+	height: 600px;
+	background: red;
+	display: inline-block;
+	position: absolute;
+	content: '';
+	right: -520px;
+	top: 300px;
+	background: url(https://media.discordapp.net/attachments/619755115795972106/884740245680160778/-2.gif);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#main #main-content > div.frame {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#article-list #article-list-category {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#article-list #article-list-category > a {
+	background: rgba(255, 255, 255, 0.2) !important;
+}
+
+#article-list > .article-list-row.notice {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+#main .menu-wrapper > .header, #main .menu-wrapper > a {
+	background: rgba(255, 255, 255, 0.2);
+	transition: 0.2s;
+}
+
+#main .menu-wrapper > a:hover {
+	border-bottom: 1px solid #333;
+	background: rgba(255, 255, 255, 0.6);
 }
