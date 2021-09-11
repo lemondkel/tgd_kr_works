@@ -307,3 +307,22 @@ a.btn.square.btn-default.best {
 	border-color: #d35400;
 	border-radius: 0;
 }
+
+
+#movetotop {
+	background: url("//slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F619755115795972106%2F884740451758915594%2F20210401___.png%3Fwidth%3D971%26height%3D776") -2px 0px / 105px !important;
+	width: 105px !important;
+	height: 90px !important;
+	opacity: 1;
+	margin-left: -15px !important;
+	transition: 0.2s;
+}
+
+#movetotop img {
+	content: "";
+	display: none;
+}
+
+#movetotop:hover {
+	transform: scale(1.2);
+}

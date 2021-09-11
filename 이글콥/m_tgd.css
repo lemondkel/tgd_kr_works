@@ -175,3 +175,22 @@ header > #header-area > #header-bar-link > i:before {
 	border-color: #d35400;
 	border-radius: 0;
 }
+
+#board-info h1 a.badge.badge-live {
+	font-size: 14px;
+	animation: 1s zz infinite;
+}
+
+@keyframes zz {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
