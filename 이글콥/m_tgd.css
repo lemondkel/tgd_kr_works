@@ -169,3 +169,9 @@ header > #header-area > #header-bar-link > i:before {
 #movetotop:hover {
 	transform: scale(1.2);
 }
+
+.btn-primary {
+	background: #d35400;
+	border-color: #d35400;
+	border-radius: 0;
+}
