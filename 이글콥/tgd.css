@@ -7,8 +7,12 @@
 
 html, body {
 	font-family: 'Noto Sans KR';
-	background: #fde3a7;
+	background: #f1e7fe;
 	height: auto !important;
+	background-image: url(https://media.discordapp.net/attachments/619755115795972106/884740451758915594/20210401___.png?width=971&height=776),url(https://media.discordapp.net/attachments/619755115795972106/884740245680160778/-2.gif);
+	background-repeat: no-repeat;
+	background-position: 24% -2.8%, 5% 90%;
+	background-size: 180px 155px, 470px 500px;
 }
 
 #main .menu-wrapper > .header {
@@ -282,3 +286,23 @@ a.btn.square.btn-primary.write {
 a.btn.square.btn-default.best {
 	border-radius: 0;
 }
+
+
+
+#article-list>.article-list-row:hover {
+	background: #fafafa;
+	transform: scale(1.05);
+	transition: all 1s;
+}
+
+/*
+background-color: rgba(255,255,255,0.5);
+*/
+
+/* header {
+	padding: .4em 0;
+	background-image: url(https://media.discordapp.net/attachments/619755115795972106/884740451758915594/20210401___.png?width=971&height=776) !important;
+	background-repeat: no-repeat !important;
+	background-size: 140px 115px !important;
+	background-position: 29vw -1.1vw !important;
+} */
