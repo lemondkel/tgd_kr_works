@@ -7,7 +7,7 @@
 
 html, body {
 	font-family: 'Noto Sans KR';
-	background: #feece7;
+	background: #fefce7;
 	height: auto !important;
 }
 
@@ -26,7 +26,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 header #right-search-form > input[type=text] {
-	border: 2px solid #d35400;
+	border: 2px solid #005ad3;
 	border-radius: 0;
 }
 
@@ -39,7 +39,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-	background-color: #d35400;
+	background-color: #005ad3;
 	color: #FFFFFF;
 }
 
@@ -52,13 +52,13 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list #article-list-category {
-	background-color: #d35400;
+	background-color: #005ad3;
 	border-top: 2px solid #000000;
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-	background-color: #d35400;
-	border-color: #d35400;
+	background-color: #005ad3;
+	border-color: #005ad3;
 	color: #FFFFFF;
 }
 
@@ -70,7 +70,7 @@ header #right-search-form > #right-search-btn {
 	width: 10em;
 	height: 10em;
 	float: left !Important;
-	border: 3px solid #d35400;
+	border: 3px solid #005ad3;
 }
 
 #board-info {
@@ -90,12 +90,12 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-title > small.favo {
-	color: #d35400;
+	color: #005ad3;
 }
 
 header #header-bar > .row {
 	border-radius: 0;
-	border: 2px solid #d35400;
+	border: 2px solid #005ad3;
 }
 
 #main #main-content > div.frame {
@@ -115,7 +115,7 @@ header #header-bar > .row {
 }
 
 #article-list #article-list-category {
-	border-top: 2px solid #d35400;
+	border-top: 2px solid #005ad3;
 	background: #FFFFFF;
 }
 
@@ -162,7 +162,7 @@ a {
 }
 
 .fa-search:before {
-	color: #d35400;
+	color: #005ad3;
 }
 
 #article-list #article-option-area {
@@ -198,7 +198,7 @@ a {
 }
 
 .fa-search:before {
-	color: #d35400;
+	color: #005ad3;
 }
 
 #board-info #viewers-area, #board-info #score-area {
@@ -214,8 +214,8 @@ a {
 }
 
 button#writeCommentBtn {
-	background: #fde3a7;
-	color: #000000;
+	background: #005ad3;
+	color: #FFF;
 }
 
 footer, footer a {
@@ -230,7 +230,7 @@ footer, footer a {
 }
 
 header .row > div:nth-child(1) > a:after {
-	color: #d35400;
+	color: #005ad3;
 	font-family: 'TTTogether';
 	content: '이글콥';
 	height: 70px;
@@ -258,8 +258,8 @@ header .row > div:nth-child(1) > a > img {
 }
 
 a.btn.square.btn-primary.write {
-	background: #d35400;
-	border-color: #d35400;
+	background: #005ad3;
+	border-color: #005ad3;
 	border-radius: 0;
 }
 
@@ -299,8 +299,8 @@ a.btn.square.btn-default.best {
 }
 
 .btn-primary {
-	background: #d35400;
-	border-color: #d35400;
+	background: #005ad3;
+	border-color: #005ad3;
 	border-radius: 0;
 }
 
@@ -341,10 +341,10 @@ div#article-list-category:before {
 	display: inline-block;
 	position: absolute;
 	content: '';
-	right: -520px;
+	right: -400px;
 	top: 300px;
 	background: url(https://media.discordapp.net/attachments/619755115795972106/884740245680160778/-2.gif);
-	background-size: auto 100%;
+	background-size: auto 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 }

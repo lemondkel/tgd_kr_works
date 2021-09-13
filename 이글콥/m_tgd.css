@@ -29,20 +29,20 @@ header > #header-area > a > h1:before {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #d35400;
+	color: #005ad3;
 	content: '이글콥';
 	height: 38px;
 	line-height: 38px;
 	font-size: 30px;
 	letter-spacing: -2px;
-	text-shadow: 3px 3px 0 #FFFFFF, -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	text-indent: 0;
 	background: none;
 }
 
 header {
-	background: #ffa78e;
-	border-bottom: 4px solid #ffa78e;
+	background: #e7ecfe;
+	border-bottom: 4px solid #e7ecfe;
 }
 
 header > #header-area > #header-bar-link {
@@ -53,8 +53,8 @@ header > #header-area > #header-search-link {
 }
 
 #header-top-notice strong.notice-badge {
-	background: #d35400;
-	color: #FFFFFF;
+	background: #005ad3;
+	color: #000;
 	border-radius: 0;
 }
 
@@ -65,7 +65,7 @@ header > #header-area > #header-search-link {
 #article-list > .article-list-row > .item > .list-header > span {
 	padding: 0 10px;
 	font-size: 10px;
-	background-color: #ffa78e;
+	background-color: #e7ecfe;
 }
 
 #article-list > .article-list-row > .item > a.list-title > small.comment-count {
@@ -73,9 +73,9 @@ header > #header-area > #header-search-link {
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-	background-color: #ffa78e;
-	border-color: #ffa78e;
-	color: #FFFFFF;
+	background-color: #e7ecfe;
+	border-color: #e7ecfe;
+	color: #000;
 }
 
 .pagination > li > a, .pagination > li > span {
@@ -83,8 +83,8 @@ header > #header-area > #header-search-link {
 }
 
 nav#nav > .nav-header {
-	background: #ffa78e;
-	color: #FFFFFF;
+	background: #e7ecfe;
+	color: #000;
 }
 
 #article-reply-area > .header h5 {
@@ -96,35 +96,35 @@ nav#nav > .nav-header {
 }
 
 a {
-	color: #FFFFFF;
+	color: #000;
 }
 
 .fa-bars:before {
-	color: #FFFFFF;
+	color: #000;
 }
 
 .fa-search:before {
-	color: #FFFFFF;
+	color: black;
 }
 
 footer {
-	background: #ffa78e;
+	background: #e7ecfe;
 }
 
 footer, footer a {
-	color: #FFFFFF !important;
+	color: #000 !important;
 }
 
 #article-list #article-list-category {
-	background: #FFFFFF;
+	background: #000;
 }
 
 #article-list #article-list-category > a {
-	background: #FFFFFF;
+	background: #000;
 }
 
 #board-info #viewers-area, #board-info #score-area {
-	color: #FFFFFF;
+	color: #000;
 }
 
 .input-group-btn:last-child > .btn .fa-search:before {
@@ -136,8 +136,8 @@ footer, footer a {
 }
 
 #article-list-menu > .btn.write {
-	background-color: #d35400;
-	border-color: #ffa78e;
+	background-color: #005ad3;
+	border-color: #e7ecfe;
 }
 
 nav#nav {
@@ -149,7 +149,7 @@ nav#nav {
 }
 
 header > #header-area > #header-bar-link > i:before {
-	color: white;
+	color: black;
 }
 
 #movetotop {
@@ -171,8 +171,8 @@ header > #header-area > #header-bar-link > i:before {
 }
 
 .btn-primary {
-	background: #d35400;
-	border-color: #d35400;
+	background: #005ad3;
+	border-color: #005ad3;
 	border-radius: 0;
 }
 
