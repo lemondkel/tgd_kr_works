@@ -274,3 +274,64 @@ header #header-bar > .row {
 	content: '귀여운';
 	animation: loving 1.5s infinite;
 }
+
+button.btn.btn-outline-success.vote-btn {
+	width: 80px;
+	height: 40px;
+	font-size: 0;
+	border: none;
+	background: url(https://cdn.discordapp.com/attachments/762974991750135819/911088135486701598/Icon-like-button-transparent-PNG.png);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	transition: 0.2s;
+	cursor: pointer;
+	line-height: 28px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: left;
+}
+
+button.btn.btn-outline-primary.vote-btn {
+	width: 80px;
+	height: 40px;
+	font-size: 0;
+	border: none;
+	background: url(https://cdn.discordapp.com/attachments/762974991750135819/911089306247000114/Dislike-icon-on-transparent-PNG.png);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	transition: 0.2s;
+	cursor: pointer;
+	line-height: 28px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: left;
+}
+
+span#down {
+	font-size: 14pt;
+	margin-left: 30px;
+	color: #d94d5c;
+}
+
+button.btn.btn-outline-success.vote-btn:hover {
+	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 #0085ff);
+	filter: opacity(0.5) drop-shadow(0 0 0 #0085ff);
+}
+
+button.btn.btn-outline-primary.vote-btn:hover {
+	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 #f95566);
+	filter: opacity(0.5) drop-shadow(0 0 0 #f95566);
+}
+
+button.btn.btn-outline-primary.vote-btn:focus,
+button.btn.btn-outline-success.vote-btn:focus{
+	outline: none;
+}
+
+span#up {
+	font-size: 14pt;
+	margin-left: 30px;
+	color: #1c7dff;
+}
